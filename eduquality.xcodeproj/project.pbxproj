@@ -23,6 +23,7 @@
 		7692585D2887416300B8B13A /* europeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7692585C2887416300B8B13A /* europeVC.swift */; };
 		7692585F2887418E00B8B13A /* northAmericaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7692585E2887418E00B8B13A /* northAmericaVC.swift */; };
 		76925861288741A100B8B13A /* southVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76925860288741A100B8B13A /* southVC.swift */; };
+		769258632887485C00B8B13A /* welcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769258622887485C00B8B13A /* welcomeVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		7692585C2887416300B8B13A /* europeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = europeVC.swift; sourceTree = "<group>"; };
 		7692585E2887418E00B8B13A /* northAmericaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = northAmericaVC.swift; sourceTree = "<group>"; };
 		76925860288741A100B8B13A /* southVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = southVC.swift; sourceTree = "<group>"; };
+		769258622887485C00B8B13A /* welcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = welcomeVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 			children = (
 				7692582128870FB600B8B13A /* AppDelegate.swift */,
 				7692582328870FB600B8B13A /* SceneDelegate.swift */,
+				769258622887485C00B8B13A /* welcomeVC.swift */,
 				7692582528870FB600B8B13A /* ViewController.swift */,
 				769258562887411600B8B13A /* africaVC.swift */,
 				769258582887412E00B8B13A /* asiaVC.swift */,
@@ -280,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7692582628870FB600B8B13A /* ViewController.swift in Sources */,
+				769258632887485C00B8B13A /* welcomeVC.swift in Sources */,
 				7692585B2887414600B8B13A /* australiaVC.swift in Sources */,
 				7692585D2887416300B8B13A /* europeVC.swift in Sources */,
 				7692582228870FB600B8B13A /* AppDelegate.swift in Sources */,

@@ -212,10 +212,10 @@
             </objects>
             <point key="canvasLocation" x="3092.753623188406" y="393.75"/>
         </scene>
-        <!--View Controller-->
+        <!--WelcomeVC-->
         <scene sceneID="3ij-Eb-TSH">
             <objects>
-                <viewController id="I4z-Ix-xAY" sceneMemberID="viewController">
+                <viewController id="I4z-Ix-xAY" customClass="welcomeVC" customModule="eduquality" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nGT-iG-p9T">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -330,7 +330,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="2hK-5N-UIC"/>
+        <segue reference="pgi-u5-t3V"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="eduquality" width="1080" height="242"/>
