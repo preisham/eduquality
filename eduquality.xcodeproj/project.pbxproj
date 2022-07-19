@@ -17,6 +17,12 @@
 		7692583C28870FC200B8B13A /* eduqualityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7692583B28870FC200B8B13A /* eduqualityTests.swift */; };
 		7692584628870FC200B8B13A /* eduqualityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7692584528870FC200B8B13A /* eduqualityUITests.swift */; };
 		7692584828870FC200B8B13A /* eduqualityUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7692584728870FC200B8B13A /* eduqualityUITestsLaunchTests.swift */; };
+		769258572887411600B8B13A /* africaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769258562887411600B8B13A /* africaVC.swift */; };
+		769258592887412E00B8B13A /* asiaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769258582887412E00B8B13A /* asiaVC.swift */; };
+		7692585B2887414600B8B13A /* australiaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7692585A2887414600B8B13A /* australiaVC.swift */; };
+		7692585D2887416300B8B13A /* europeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7692585C2887416300B8B13A /* europeVC.swift */; };
+		7692585F2887418E00B8B13A /* northAmericaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7692585E2887418E00B8B13A /* northAmericaVC.swift */; };
+		76925861288741A100B8B13A /* southVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76925860288741A100B8B13A /* southVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,12 @@
 		7692584128870FC200B8B13A /* eduqualityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eduqualityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7692584528870FC200B8B13A /* eduqualityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eduqualityUITests.swift; sourceTree = "<group>"; };
 		7692584728870FC200B8B13A /* eduqualityUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eduqualityUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		769258562887411600B8B13A /* africaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = africaVC.swift; sourceTree = "<group>"; };
+		769258582887412E00B8B13A /* asiaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = asiaVC.swift; sourceTree = "<group>"; };
+		7692585A2887414600B8B13A /* australiaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = australiaVC.swift; sourceTree = "<group>"; };
+		7692585C2887416300B8B13A /* europeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = europeVC.swift; sourceTree = "<group>"; };
+		7692585E2887418E00B8B13A /* northAmericaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = northAmericaVC.swift; sourceTree = "<group>"; };
+		76925860288741A100B8B13A /* southVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = southVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +116,12 @@
 				7692582128870FB600B8B13A /* AppDelegate.swift */,
 				7692582328870FB600B8B13A /* SceneDelegate.swift */,
 				7692582528870FB600B8B13A /* ViewController.swift */,
+				769258562887411600B8B13A /* africaVC.swift */,
+				769258582887412E00B8B13A /* asiaVC.swift */,
+				7692585A2887414600B8B13A /* australiaVC.swift */,
+				7692585C2887416300B8B13A /* europeVC.swift */,
+				7692585E2887418E00B8B13A /* northAmericaVC.swift */,
+				76925860288741A100B8B13A /* southVC.swift */,
 				7692582728870FB600B8B13A /* Main.storyboard */,
 				7692582D28870FC100B8B13A /* Assets.xcassets */,
 				7692582F28870FC100B8B13A /* LaunchScreen.storyboard */,
@@ -262,7 +280,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				7692582628870FB600B8B13A /* ViewController.swift in Sources */,
+				7692585B2887414600B8B13A /* australiaVC.swift in Sources */,
+				7692585D2887416300B8B13A /* europeVC.swift in Sources */,
 				7692582228870FB600B8B13A /* AppDelegate.swift in Sources */,
+				769258592887412E00B8B13A /* asiaVC.swift in Sources */,
+				7692585F2887418E00B8B13A /* northAmericaVC.swift in Sources */,
+				76925861288741A100B8B13A /* southVC.swift in Sources */,
+				769258572887411600B8B13A /* africaVC.swift in Sources */,
 				7692582C28870FB600B8B13A /* eduquality.xcdatamodeld in Sources */,
 				7692582428870FB600B8B13A /* SceneDelegate.swift in Sources */,
 			);
