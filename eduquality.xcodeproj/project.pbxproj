@@ -33,6 +33,10 @@
 		76D5A0D12888FB2C001BA71C /* ethiopiaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D5A0D02888FB2C001BA71C /* ethiopiaVC.swift */; };
 		76D5A0D32888FD60001BA71C /* afghanistanVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D5A0D22888FD60001BA71C /* afghanistanVC.swift */; };
 		76D5A0D528890FA7001BA71C /* africaReviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D5A0D428890FA7001BA71C /* africaReviewVC.swift */; };
+		76D5A0D72889A0A6001BA71C /* unitedStatesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D5A0D62889A0A6001BA71C /* unitedStatesVC.swift */; };
+		76D5A0D92889A0C4001BA71C /* canadaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D5A0D82889A0C4001BA71C /* canadaVC.swift */; };
+		76D5A0DB2889A0FE001BA71C /* ecuadorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D5A0DA2889A0FE001BA71C /* ecuadorVC.swift */; };
+		76D5A0DD2889A11B001BA71C /* paraguayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D5A0DC2889A11B001BA71C /* paraguayVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +87,10 @@
 		76D5A0D02888FB2C001BA71C /* ethiopiaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ethiopiaVC.swift; sourceTree = "<group>"; };
 		76D5A0D22888FD60001BA71C /* afghanistanVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = afghanistanVC.swift; sourceTree = "<group>"; };
 		76D5A0D428890FA7001BA71C /* africaReviewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = africaReviewVC.swift; sourceTree = "<group>"; };
+		76D5A0D62889A0A6001BA71C /* unitedStatesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = unitedStatesVC.swift; sourceTree = "<group>"; };
+		76D5A0D82889A0C4001BA71C /* canadaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = canadaVC.swift; sourceTree = "<group>"; };
+		76D5A0DA2889A0FE001BA71C /* ecuadorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ecuadorVC.swift; sourceTree = "<group>"; };
+		76D5A0DC2889A11B001BA71C /* paraguayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = paraguayVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +158,10 @@
 				76D5A0CE2888DE96001BA71C /* centralAfricanRepublicVC.swift */,
 				76D5A0D02888FB2C001BA71C /* ethiopiaVC.swift */,
 				76D5A0D22888FD60001BA71C /* afghanistanVC.swift */,
+				76D5A0D62889A0A6001BA71C /* unitedStatesVC.swift */,
+				76D5A0D82889A0C4001BA71C /* canadaVC.swift */,
+				76D5A0DA2889A0FE001BA71C /* ecuadorVC.swift */,
+				76D5A0DC2889A11B001BA71C /* paraguayVC.swift */,
 				7692582A28870FB600B8B13A /* eduquality.xcdatamodeld */,
 				7692587228885F3A00B8B13A /* childhood.mp3 */,
 				7692587028885A6900B8B13A /* GoogleService-Info.plist */,
@@ -311,11 +323,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76D5A0DB2889A0FE001BA71C /* ecuadorVC.swift in Sources */,
 				7692582628870FB600B8B13A /* ViewController.swift in Sources */,
 				769258632887485C00B8B13A /* welcomeVC.swift in Sources */,
 				7692585B2887414600B8B13A /* australiaVC.swift in Sources */,
 				769258752888708E00B8B13A /* guineaVC.swift in Sources */,
 				7692585D2887416300B8B13A /* europeVC.swift in Sources */,
+				76D5A0D72889A0A6001BA71C /* unitedStatesVC.swift in Sources */,
+				76D5A0D92889A0C4001BA71C /* canadaVC.swift in Sources */,
 				7692582228870FB600B8B13A /* AppDelegate.swift in Sources */,
 				76D5A0D32888FD60001BA71C /* afghanistanVC.swift in Sources */,
 				769258592887412E00B8B13A /* asiaVC.swift in Sources */,
@@ -326,6 +341,7 @@
 				769258572887411600B8B13A /* africaVC.swift in Sources */,
 				7692582C28870FB600B8B13A /* eduquality.xcdatamodeld in Sources */,
 				76D5A0D528890FA7001BA71C /* africaReviewVC.swift in Sources */,
+				76D5A0DD2889A11B001BA71C /* paraguayVC.swift in Sources */,
 				7692586D28884F4500B8B13A /* loginVC.swift in Sources */,
 				7692586F28884F7300B8B13A /* signUpVC.swift in Sources */,
 				7692582428870FB600B8B13A /* SceneDelegate.swift in Sources */,

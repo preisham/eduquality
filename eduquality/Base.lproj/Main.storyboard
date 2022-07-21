@@ -595,7 +595,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FJa-ri-2h9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4560.8695652173919" y="-234.375"/>
+            <point key="canvasLocation" x="4717" y="-419"/>
         </scene>
         <!--North AmericaVC-->
         <scene sceneID="WRg-ce-6gT">
@@ -609,26 +609,6 @@
                                 <rect key="frame" x="10" y="60" width="414" height="812"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9T5-eo-gF1">
-                                <rect key="frame" x="10" y="60" width="75" height="28"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.96600240468978882" green="0.96225851774215698" blue="0.87161433696746826" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Paraguay" cornerStyle="large">
-                                    <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
-                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </buttonConfiguration>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SrT-2E-2w8">
-                                <rect key="frame" x="10" y="60" width="75" height="28"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.96600240468978882" green="0.96225851774215698" blue="0.87161433696746826" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Paraguay" cornerStyle="large">
-                                    <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
-                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </buttonConfiguration>
-                            </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="wKo-fl-Fb1">
                                 <rect key="frame" x="193" y="519.5" width="75" height="57"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -647,6 +627,9 @@
                                     <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="V3B-sc-Gcm" kind="show" id="sNk-Zj-Jj0"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="MGI-Aw-i50">
                                 <rect key="frame" x="132" y="419.5" width="75" height="57"/>
@@ -662,6 +645,9 @@
                                     <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="tCF-eJ-xaz" kind="show" id="D36-bQ-lP5"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="North America" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yzs-Ut-d3I">
                                 <rect key="frame" x="105" y="134" width="204" height="36"/>
@@ -683,6 +669,38 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qsR-rH-qqu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3847.826086956522" y="268.52678571428572"/>
+        </scene>
+        <!--CanadaVC-->
+        <scene sceneID="z5M-V5-FpK">
+            <objects>
+                <viewController id="tCF-eJ-xaz" customClass="canadaVC" customModule="eduquality" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9fc-xv-uRj">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="xZa-lJ-cQi"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="b2K-YK-vdZ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NP5-Xc-zyn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5367" y="271"/>
+        </scene>
+        <!--United StatesVC-->
+        <scene sceneID="2rl-cs-9LL">
+            <objects>
+                <viewController id="V3B-sc-Gcm" customClass="unitedStatesVC" customModule="eduquality" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BcE-yC-9Wy">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="bbv-pz-Slj"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Zw1-qi-CEe"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6J6-zT-xUe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4590" y="511"/>
         </scene>
         <!--AsiaVC-->
         <scene sceneID="KdR-om-iSO">
@@ -739,6 +757,38 @@
             </objects>
             <point key="canvasLocation" x="3092.753623188406" y="-514.28571428571422"/>
         </scene>
+        <!--EcuadorVC-->
+        <scene sceneID="PSp-g8-hd5">
+            <objects>
+                <viewController id="RI3-aw-Iml" customClass="ecuadorVC" customModule="eduquality" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6F7-la-ZBa">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="6qG-Zi-QYG"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="XbG-qk-f9a"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="53r-QF-VcC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2447" y="753"/>
+        </scene>
+        <!--ParaguayVC-->
+        <scene sceneID="cyx-I9-Xel">
+            <objects>
+                <viewController id="KTa-4f-msA" customClass="paraguayVC" customModule="eduquality" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hpo-wH-vFX" customClass="para">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="AzE-4h-2mi"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="koh-4Y-Q13"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EbA-MY-NOs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3108" y="1052"/>
+        </scene>
         <!--SouthVC-->
         <scene sceneID="uUb-0h-uRu">
             <objects>
@@ -774,6 +824,9 @@
                                     <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="RI3-aw-Iml" kind="show" id="SVp-IA-b8p"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ecuador!" translatesAutoresizingMaskIntoConstraints="NO" id="wSr-BX-QXy">
                                 <rect key="frame" x="85" y="348" width="41" height="42"/>
@@ -795,6 +848,9 @@
                                     <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="KTa-4f-msA" kind="show" id="iGm-PT-bFt"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="P4N-oM-0tO"/>
