@@ -37,6 +37,7 @@
 		76D5A0D92889A0C4001BA71C /* canadaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D5A0D82889A0C4001BA71C /* canadaVC.swift */; };
 		76D5A0DB2889A0FE001BA71C /* ecuadorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D5A0DA2889A0FE001BA71C /* ecuadorVC.swift */; };
 		76D5A0DD2889A11B001BA71C /* paraguayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D5A0DC2889A11B001BA71C /* paraguayVC.swift */; };
+		76D5A0DF2889C6C0001BA71C /* scoreAfricaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D5A0DE2889C6C0001BA71C /* scoreAfricaVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +92,7 @@
 		76D5A0D82889A0C4001BA71C /* canadaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = canadaVC.swift; sourceTree = "<group>"; };
 		76D5A0DA2889A0FE001BA71C /* ecuadorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ecuadorVC.swift; sourceTree = "<group>"; };
 		76D5A0DC2889A11B001BA71C /* paraguayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = paraguayVC.swift; sourceTree = "<group>"; };
+		76D5A0DE2889C6C0001BA71C /* scoreAfricaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scoreAfricaVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +164,7 @@
 				76D5A0D82889A0C4001BA71C /* canadaVC.swift */,
 				76D5A0DA2889A0FE001BA71C /* ecuadorVC.swift */,
 				76D5A0DC2889A11B001BA71C /* paraguayVC.swift */,
+				76D5A0DE2889C6C0001BA71C /* scoreAfricaVC.swift */,
 				7692582A28870FB600B8B13A /* eduquality.xcdatamodeld */,
 				7692587228885F3A00B8B13A /* childhood.mp3 */,
 				7692587028885A6900B8B13A /* GoogleService-Info.plist */,
@@ -327,6 +330,7 @@
 				7692582628870FB600B8B13A /* ViewController.swift in Sources */,
 				769258632887485C00B8B13A /* welcomeVC.swift in Sources */,
 				7692585B2887414600B8B13A /* australiaVC.swift in Sources */,
+				76D5A0DF2889C6C0001BA71C /* scoreAfricaVC.swift in Sources */,
 				769258752888708E00B8B13A /* guineaVC.swift in Sources */,
 				7692585D2887416300B8B13A /* europeVC.swift in Sources */,
 				76D5A0D72889A0A6001BA71C /* unitedStatesVC.swift in Sources */,
