@@ -116,6 +116,102 @@
             </objects>
             <point key="canvasLocation" x="1734.7826086956522" y="69.642857142857139"/>
         </scene>
+        <!--GuineaVC-->
+        <scene sceneID="o0h-JZ-5YI">
+            <objects>
+                <viewController id="3lF-wj-FD4" customClass="guineaVC" customModule="eduquality" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="Kd5-p2-ToK">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MBc-yP-Wpg">
+                                <rect key="frame" x="0.0" y="110" width="414" height="752"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9EP-yZ-B3V">
+                                        <rect key="frame" x="0.0" y="0.0" width="1313" height="744"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Child Marriage" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="viY-aJ-3R3">
+                                                <rect key="frame" x="95" y="46" width="211" height="36"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="30"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gpl-L6-FGj">
+                                                <rect key="frame" x="35" y="90" width="331" height="431"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">There is a steep drop in girls’ enrollment between primary and secondary school. While close to 77 percent of girls attend primary school, only 25 percent of girls of secondary school age are attending. This dramatic difference is largely due to teen girls dropping out to help at home or as a result of child marriage. </string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.28235294119999998" green="0.3921568627" blue="0.64313725489999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="1313" id="Raf-Uv-wlO"/>
+                                            <constraint firstAttribute="height" constant="744" id="oRW-zg-fad"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="9EP-yZ-B3V" secondAttribute="trailing" id="2rf-9w-Vf6"/>
+                                    <constraint firstItem="9EP-yZ-B3V" firstAttribute="height" secondItem="7ch-bN-y1R" secondAttribute="height" id="8fv-Jd-Evp"/>
+                                    <constraint firstAttribute="bottom" secondItem="9EP-yZ-B3V" secondAttribute="bottom" id="HL6-pF-AQW"/>
+                                    <constraint firstAttribute="height" constant="752" id="HQk-JJ-rmW"/>
+                                    <constraint firstItem="9EP-yZ-B3V" firstAttribute="top" secondItem="MBc-yP-Wpg" secondAttribute="top" id="KIt-ez-c7x"/>
+                                    <constraint firstItem="9EP-yZ-B3V" firstAttribute="leading" secondItem="MBc-yP-Wpg" secondAttribute="leading" id="trf-fx-fNj"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="7ch-bN-y1R"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="pcT-Fn-aMA"/>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="g97-rx-e5B"/>
+                        <color key="backgroundColor" red="0.28235294117647058" green="0.39215686274509803" blue="0.64313725490196072" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="MBc-yP-Wpg" firstAttribute="leading" secondItem="g97-rx-e5B" secondAttribute="leading" id="2aq-gi-hmS"/>
+                            <constraint firstItem="MBc-yP-Wpg" firstAttribute="top" secondItem="g97-rx-e5B" secondAttribute="top" id="HJK-IJ-44K"/>
+                            <constraint firstItem="MBc-yP-Wpg" firstAttribute="trailing" secondItem="g97-rx-e5B" secondAttribute="trailing" id="WsO-Yl-cou"/>
+                            <constraint firstItem="MBc-yP-Wpg" firstAttribute="bottom" secondItem="g97-rx-e5B" secondAttribute="bottom" id="sEd-GE-zZK"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dRI-TR-Dz3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="-1358.0357142857142"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="fc7-Ai-qfo">
+            <objects>
+                <viewController id="0Ff-hR-ftN" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="h13-q8-M2j">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="xE2-5w-Wf7"/>
+                        <color key="backgroundColor" red="0.28235294119999998" green="0.3921568627" blue="0.64313725489999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="6fP-Fy-Nk7"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Run-MP-rWM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2325" y="-1336"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ClV-mn-fld">
+            <objects>
+                <viewController id="Ope-bE-pkY" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RQf-7N-Pl8">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="68Q-S3-D7Q"/>
+                        <color key="backgroundColor" red="0.28235294119999998" green="0.3921568627" blue="0.64313725489999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="sNI-2I-xH3"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UCb-rc-02Z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3093" y="-1268"/>
+        </scene>
         <!--AfricaVC-->
         <scene sceneID="XIM-zL-3ih">
             <objects>
@@ -171,6 +267,9 @@
                                     <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="3lF-wj-FD4" kind="show" id="Hd9-b5-kpw"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2mU-G1-qO3">
                                 <rect key="frame" x="121" y="427" width="158" height="28"/>
@@ -181,6 +280,9 @@
                                     <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="0Ff-hR-ftN" kind="show" id="s9d-Tj-JDN"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NwB-bR-Coc">
                                 <rect key="frame" x="291" y="403" width="71" height="28"/>
@@ -191,6 +293,9 @@
                                     <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="Ope-bE-pkY" kind="show" id="HS6-5d-xdz"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ZES-pn-DnO"/>
