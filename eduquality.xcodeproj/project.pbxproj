@@ -30,6 +30,7 @@
 		7692587328885F3A00B8B13A /* childhood.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7692587228885F3A00B8B13A /* childhood.mp3 */; };
 		769258752888708E00B8B13A /* guineaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769258742888708D00B8B13A /* guineaVC.swift */; };
 		76D5A0CF2888DE96001BA71C /* centralAfricanRepublicVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D5A0CE2888DE96001BA71C /* centralAfricanRepublicVC.swift */; };
+		76D5A0D12888FB2C001BA71C /* ethiopiaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D5A0D02888FB2C001BA71C /* ethiopiaVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +78,7 @@
 		7692587228885F3A00B8B13A /* childhood.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = childhood.mp3; sourceTree = "<group>"; };
 		769258742888708D00B8B13A /* guineaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = guineaVC.swift; sourceTree = "<group>"; };
 		76D5A0CE2888DE96001BA71C /* centralAfricanRepublicVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = centralAfricanRepublicVC.swift; sourceTree = "<group>"; };
+		76D5A0D02888FB2C001BA71C /* ethiopiaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ethiopiaVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +143,7 @@
 				76925860288741A100B8B13A /* southVC.swift */,
 				769258742888708D00B8B13A /* guineaVC.swift */,
 				76D5A0CE2888DE96001BA71C /* centralAfricanRepublicVC.swift */,
+				76D5A0D02888FB2C001BA71C /* ethiopiaVC.swift */,
 				7692587228885F3A00B8B13A /* childhood.mp3 */,
 				7692587028885A6900B8B13A /* GoogleService-Info.plist */,
 				7692582728870FB600B8B13A /* Main.storyboard */,
@@ -309,6 +312,7 @@
 				7692585D2887416300B8B13A /* europeVC.swift in Sources */,
 				7692582228870FB600B8B13A /* AppDelegate.swift in Sources */,
 				769258592887412E00B8B13A /* asiaVC.swift in Sources */,
+				76D5A0D12888FB2C001BA71C /* ethiopiaVC.swift in Sources */,
 				76D5A0CF2888DE96001BA71C /* centralAfricanRepublicVC.swift in Sources */,
 				7692585F2887418E00B8B13A /* northAmericaVC.swift in Sources */,
 				76925861288741A100B8B13A /* southVC.swift in Sources */,
