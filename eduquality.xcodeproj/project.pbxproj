@@ -32,6 +32,7 @@
 		76D5A0CF2888DE96001BA71C /* centralAfricanRepublicVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D5A0CE2888DE96001BA71C /* centralAfricanRepublicVC.swift */; };
 		76D5A0D12888FB2C001BA71C /* ethiopiaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D5A0D02888FB2C001BA71C /* ethiopiaVC.swift */; };
 		76D5A0D32888FD60001BA71C /* afghanistanVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D5A0D22888FD60001BA71C /* afghanistanVC.swift */; };
+		76D5A0D528890FA7001BA71C /* africaReviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D5A0D428890FA7001BA71C /* africaReviewVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +82,7 @@
 		76D5A0CE2888DE96001BA71C /* centralAfricanRepublicVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = centralAfricanRepublicVC.swift; sourceTree = "<group>"; };
 		76D5A0D02888FB2C001BA71C /* ethiopiaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ethiopiaVC.swift; sourceTree = "<group>"; };
 		76D5A0D22888FD60001BA71C /* afghanistanVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = afghanistanVC.swift; sourceTree = "<group>"; };
+		76D5A0D428890FA7001BA71C /* africaReviewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = africaReviewVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +140,7 @@
 				7692586C28884F4400B8B13A /* loginVC.swift */,
 				7692586E28884F7300B8B13A /* signUpVC.swift */,
 				769258562887411600B8B13A /* africaVC.swift */,
+				76D5A0D428890FA7001BA71C /* africaReviewVC.swift */,
 				769258582887412E00B8B13A /* asiaVC.swift */,
 				7692585A2887414600B8B13A /* australiaVC.swift */,
 				7692585C2887416300B8B13A /* europeVC.swift */,
@@ -322,6 +325,7 @@
 				76925861288741A100B8B13A /* southVC.swift in Sources */,
 				769258572887411600B8B13A /* africaVC.swift in Sources */,
 				7692582C28870FB600B8B13A /* eduquality.xcdatamodeld in Sources */,
+				76D5A0D528890FA7001BA71C /* africaReviewVC.swift in Sources */,
 				7692586D28884F4500B8B13A /* loginVC.swift in Sources */,
 				7692586F28884F7300B8B13A /* signUpVC.swift in Sources */,
 				7692582428870FB600B8B13A /* SceneDelegate.swift in Sources */,
