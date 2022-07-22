@@ -1069,7 +1069,7 @@ It is common that once girls reach 13 years of age, their school attendance rate
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="H15-Os-PpN">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="H15-Os-PpN">
                                 <rect key="frame" x="0.0" y="88" width="414" height="774"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aex-Kw-oiO">
@@ -1083,11 +1083,29 @@ It is common that once girls reach 13 years of age, their school attendance rate
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0rB-zq-3TW">
-                                                <rect key="frame" x="32" y="14" width="350" height="537"/>
+                                                <rect key="frame" x="32" y="90" width="350" height="413"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">While Canada is better at enforcing gender equality in classrooms, one thing that they look over is transgender students. A lot of school dont welcome gender-diversity and they won’t realize this unless a transgender student reveals themselves. This may create an atmosphere in which a student may not feel comfortable which is the opposite of how someone should feel in a classroom. 
 </string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Underrepresentation in Workforces" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gdG-no-xmC">
+                                                <rect key="frame" x="435" y="8" width="319" height="74"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Ho-yh-eVM">
+                                                <rect key="frame" x="419" y="98" width="350" height="676"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <mutableString key="text">Although women make up over half of post-secondary graduates, they continue to be underrepresented in senior decision-making roles, certain academic and professional fields, and the workforce. 
+Despite the greater proportion of women involved in attaining college degrees, at the university level they are extremely underrepresented in STEM: 32% of female graduates were involved in mathematics, computer and information sciences, and just 20% of graduates in architecture, engineering and related technologies.
+Just as gender inequities are present in post-secondary attainment, they are also evident in labour force participation and outcomes. Despite comprising 48 per cent of the labour force in Canada, women are consistently underrepresented in senior leadership positions.
+</mutableString>
+                                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -1118,7 +1136,7 @@ It is common that once girls reach 13 years of age, their school attendance rate
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NP5-Xc-zyn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5109" y="321"/>
+            <point key="canvasLocation" x="5107.2463768115949" y="320.75892857142856"/>
         </scene>
         <!--United StatesVC-->
         <scene sceneID="2rl-cs-9LL">
@@ -1128,21 +1146,21 @@ It is common that once girls reach 13 years of age, their school attendance rate
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gtu-Yk-UpY">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9kg-Lx-5Al">
                                 <rect key="frame" x="0.0" y="88" width="414" height="774"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ket-PH-Riu">
-                                        <rect key="frame" x="0.0" y="0.0" width="987" height="774"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9pW-fA-o3R">
+                                        <rect key="frame" x="0.0" y="0.0" width="1488" height="766"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Introduction" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BMn-W3-9u2">
-                                                <rect key="frame" x="45" y="34" width="324" height="74"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Introduction" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UaV-el-EEY">
+                                                <rect key="frame" x="45" y="8" width="324" height="74"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mHf-s7-m9e">
-                                                <rect key="frame" x="32" y="116" width="350" height="613"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T7c-OK-p7H">
+                                                <rect key="frame" x="32" y="90" width="350" height="613"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">While the inequality in education when it comes to gender isn’t as bad in the United States as it is in other countries, there are still many obstacles. The problem with the education system in the United States is that girls are constantly undermined and underestimated by teachers. Many teachers, especially in the math and science classes, already have the bias that boys are naturally better than girls in said subjects which negatively impacts girls because they will start to believe it. In order for girls to be recognized at the same level as boys, they need to work much harder and prove that they are just as smart. 
 </string>
@@ -1150,41 +1168,73 @@ It is common that once girls reach 13 years of age, their school attendance rate
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Statistics" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dMN-RK-Nip">
+                                                <rect key="frame" x="480" y="8" width="324" height="74"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eTM-PE-Qhs">
+                                                <rect key="frame" x="467" y="90" width="350" height="345"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">In a series of studies using data from both the 1998-99 and 2010-11 kindergarten cohorts of the nationally representative Early Childhood Longitudinal Study, it was found that when boys and girls entered kindergarten, no average gender gap in math test score existed. However, a gap of nearly 0.25 standard deviations developed in favor of the boys by around second or third grade.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Teachers Underestimating Girls " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eRQ-wr-0Ii">
+                                                <rect key="frame" x="897" y="10" width="331" height="72"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="30"/>
+                                                <color key="textColor" red="0.96862751250000001" green="0.96862751250000001" blue="0.96862751250000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FSV-Q6-QeE">
+                                                <rect key="frame" x="886" y="92" width="353" height="626"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <mutableString key="text">When confronted with a boy and a girl of the same race and socio-economic status who performed equally well on math tests and whom the teacher rated equally well in behaving and engaging with school, the teacher rated the boy as more mathematically able—an alarming pattern that replicated in a separate data set collected after ten years.
+In summary, in order for a girl to be rated as mathematically capable as her male classmate, she not only needs to perform as well as him on a psychometrically rigorous external test, but also be seen as working harder than him. Subsequent matching and instrumental variables analyses suggested that teachers’ underrating of girls from kindergarten through third grade accounts for about half of the gender achievement gap growth in math. 
+</mutableString>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="21"/>
+                                                <color key="textColor" red="0.96862751250000001" green="0.96862751250000001" blue="0.96862751250000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                         </subviews>
                                         <color key="backgroundColor" red="0.46437960859999999" green="0.00044702389280000001" blue="0.0126796281" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="774" id="R1G-uw-sDZ"/>
-                                            <constraint firstAttribute="width" constant="987" id="prM-z8-L7l"/>
+                                            <constraint firstAttribute="width" constant="1488" id="OD5-a9-y6y"/>
+                                            <constraint firstAttribute="height" constant="766" id="kMv-Cb-cew"/>
                                         </constraints>
                                     </view>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="774" id="CMW-fA-sd8"/>
-                                    <constraint firstItem="Ket-PH-Riu" firstAttribute="top" secondItem="gtu-Yk-UpY" secondAttribute="top" id="Hzi-DB-0UV"/>
-                                    <constraint firstAttribute="trailing" secondItem="Ket-PH-Riu" secondAttribute="trailing" id="UTM-jK-vZq"/>
-                                    <constraint firstAttribute="trailing" secondItem="Ket-PH-Riu" secondAttribute="trailing" constant="573" id="UgO-8f-h7o"/>
-                                    <constraint firstItem="Ket-PH-Riu" firstAttribute="leading" secondItem="gtu-Yk-UpY" secondAttribute="leading" id="Wq7-2p-ZWS"/>
-                                    <constraint firstItem="Ket-PH-Riu" firstAttribute="height" secondItem="j4T-4X-TAG" secondAttribute="height" id="nZm-CV-OW2"/>
-                                    <constraint firstAttribute="bottom" secondItem="Ket-PH-Riu" secondAttribute="bottom" id="xKK-qa-o3c"/>
+                                    <constraint firstAttribute="bottom" secondItem="9pW-fA-o3R" secondAttribute="bottom" id="B3Z-zC-6a1"/>
+                                    <constraint firstAttribute="trailing" secondItem="9pW-fA-o3R" secondAttribute="trailing" constant="1074" id="UBY-72-Cgd"/>
+                                    <constraint firstItem="9pW-fA-o3R" firstAttribute="top" secondItem="9kg-Lx-5Al" secondAttribute="top" id="b5n-iv-3EL"/>
+                                    <constraint firstItem="9pW-fA-o3R" firstAttribute="leading" secondItem="9kg-Lx-5Al" secondAttribute="leading" id="cK9-W7-VYT"/>
+                                    <constraint firstAttribute="height" constant="774" id="coV-ty-F41"/>
+                                    <constraint firstAttribute="trailing" secondItem="9pW-fA-o3R" secondAttribute="trailing" id="r26-g5-bFK"/>
+                                    <constraint firstItem="9pW-fA-o3R" firstAttribute="height" secondItem="F5l-bp-2hj" secondAttribute="height" id="wcQ-Ae-OKL"/>
                                 </constraints>
-                                <viewLayoutGuide key="contentLayoutGuide" id="j4T-4X-TAG"/>
-                                <viewLayoutGuide key="frameLayoutGuide" id="aHz-ce-BX3"/>
+                                <viewLayoutGuide key="contentLayoutGuide" id="F5l-bp-2hj"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="3mv-ex-JAK"/>
                             </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="bbv-pz-Slj"/>
                         <color key="backgroundColor" red="0.5164794921875" green="0.0" blue="0.014501748350055172" alpha="0.89306155577400659" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="gtu-Yk-UpY" firstAttribute="bottom" secondItem="bbv-pz-Slj" secondAttribute="bottom" id="Eoa-aE-YfJ"/>
-                            <constraint firstItem="gtu-Yk-UpY" firstAttribute="trailing" secondItem="bbv-pz-Slj" secondAttribute="trailing" id="QRu-33-ZGO"/>
-                            <constraint firstItem="gtu-Yk-UpY" firstAttribute="top" secondItem="bbv-pz-Slj" secondAttribute="top" id="uDT-IU-uCo"/>
-                            <constraint firstItem="gtu-Yk-UpY" firstAttribute="leading" secondItem="bbv-pz-Slj" secondAttribute="leading" id="wwX-PL-e3j"/>
+                            <constraint firstItem="9kg-Lx-5Al" firstAttribute="top" secondItem="bbv-pz-Slj" secondAttribute="top" id="20t-K0-dNX"/>
+                            <constraint firstItem="9kg-Lx-5Al" firstAttribute="leading" secondItem="bbv-pz-Slj" secondAttribute="leading" id="GtB-fH-e5O"/>
+                            <constraint firstItem="9kg-Lx-5Al" firstAttribute="trailing" secondItem="bbv-pz-Slj" secondAttribute="trailing" id="aTz-Fq-vxf"/>
+                            <constraint firstItem="9kg-Lx-5Al" firstAttribute="bottom" secondItem="bbv-pz-Slj" secondAttribute="bottom" id="tgX-oX-Pac"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Zw1-qi-CEe"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6J6-zT-xUe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5743" y="-360"/>
+            <point key="canvasLocation" x="5742.0289855072469" y="-360.26785714285711"/>
         </scene>
         <!--AsiaVC-->
         <scene sceneID="KdR-om-iSO">
