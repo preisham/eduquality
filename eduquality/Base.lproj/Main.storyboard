@@ -532,11 +532,11 @@ It is common that once girls reach 13 years of age, their school attendance rate
         <scene sceneID="wXe-AH-eTC">
             <objects>
                 <viewController id="gzo-Gc-XEc" customClass="afghanistanVC" customModule="eduquality" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="WAW-vf-SSU">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="WAW-vf-SSU">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Wah-Yc-res">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Wah-Yc-res">
                                 <rect key="frame" x="0.0" y="88" width="414" height="774"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="v3I-g7-ph5">
@@ -559,8 +559,15 @@ It is common that once girls reach 13 years of age, their school attendance rate
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Child Marriage" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nlt-Lu-MZd">
+                                                <rect key="frame" x="530" y="18" width="205" height="36"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cZ5-cV-2Fk">
-                                                <rect key="frame" x="467" y="81" width="368" height="615"/>
+                                                <rect key="frame" x="448" y="71" width="368" height="615"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <mutableString key="text">While prohibited, child marriage is widespread in Afghanistan. Women must be at least 15 or 16 years old to be married, while men must be at least 18 years old. In the past, many families chose child marriages to repay any personal debts, resolve conflicts, or forge connections with other families to lessen their number of enemies. 17% of Afghan girls get married before becoming 15 years old, which is a typical practice. Men decide whether to sell off daughters for marriage, with little or no input from spouses, mothers, sisters, or the girls themselves. Due to early marriage and a lack of access to reproductive health information and services, about 10% of Afghan adolescent females (aged 15 to 19) give birth each year.</mutableString>
@@ -568,13 +575,6 @@ It is common that once girls reach 13 years of age, their school attendance rate
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                                 <size key="shadowOffset" width="0.0" height="0.0"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Child Marriage" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nlt-Lu-MZd">
-                                                <rect key="frame" x="549" y="37" width="205" height="36"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
-                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
                                         <color key="backgroundColor" red="0.0078431372550000003" green="0.18823529410000001" blue="0.12549019610000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -942,7 +942,7 @@ It is common that once girls reach 13 years of age, their school attendance rate
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="tCF-eJ-xaz" kind="show" id="D36-bQ-lP5"/>
+                                    <segue destination="tCF-eJ-xaz" kind="show" id="cU4-5s-XrJ"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="North America" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yzs-Ut-d3I">
@@ -990,8 +990,8 @@ It is common that once girls reach 13 years of age, their school attendance rate
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="H15-Os-PpN">
                                 <rect key="frame" x="0.0" y="88" width="414" height="774"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aex-Kw-oiO">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="774"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aex-Kw-oiO">
+                                        <rect key="frame" x="0.0" y="0.0" width="1072" height="774"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Introduction" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oa6-Tu-wOh">
                                                 <rect key="frame" x="45" y="8" width="324" height="74"/>
@@ -1012,6 +1012,7 @@ It is common that once girls reach 13 years of age, their school attendance rate
                                         </subviews>
                                         <color key="backgroundColor" red="0.46437960859999999" green="0.00044702389280000001" blue="0.0126796281" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
+                                            <constraint firstAttribute="width" constant="1072" id="sHe-nA-e0h"/>
                                             <constraint firstAttribute="height" constant="774" id="wa3-6Z-2hW"/>
                                         </constraints>
                                     </view>
@@ -1020,6 +1021,7 @@ It is common that once girls reach 13 years of age, their school attendance rate
                                     <constraint firstItem="aex-Kw-oiO" firstAttribute="top" secondItem="H15-Os-PpN" secondAttribute="top" id="00e-YP-xLF"/>
                                     <constraint firstAttribute="bottom" secondItem="aex-Kw-oiO" secondAttribute="bottom" id="Zf6-da-ebW"/>
                                     <constraint firstItem="aex-Kw-oiO" firstAttribute="leading" secondItem="H15-Os-PpN" secondAttribute="leading" id="e48-ZT-vbj"/>
+                                    <constraint firstAttribute="trailing" secondItem="aex-Kw-oiO" secondAttribute="trailing" constant="658" id="h1F-hB-DRd"/>
                                     <constraint firstItem="aex-Kw-oiO" firstAttribute="height" secondItem="VtS-fr-mwY" secondAttribute="height" id="hzR-1c-Uyw"/>
                                     <constraint firstAttribute="trailing" secondItem="aex-Kw-oiO" secondAttribute="trailing" id="wKP-fJ-ysx"/>
                                 </constraints>
@@ -1034,7 +1036,7 @@ It is common that once girls reach 13 years of age, their school attendance rate
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NP5-Xc-zyn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6700" y="269"/>
+            <point key="canvasLocation" x="5109" y="321"/>
         </scene>
         <!--United StatesVC-->
         <scene sceneID="2rl-cs-9LL">
@@ -1044,11 +1046,11 @@ It is common that once girls reach 13 years of age, their school attendance rate
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gtu-Yk-UpY">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gtu-Yk-UpY">
                                 <rect key="frame" x="0.0" y="88" width="414" height="774"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ket-PH-Riu">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="774"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ket-PH-Riu">
+                                        <rect key="frame" x="0.0" y="0.0" width="987" height="774"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Introduction" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BMn-W3-9u2">
                                                 <rect key="frame" x="45" y="34" width="324" height="74"/>
@@ -1058,7 +1060,7 @@ It is common that once girls reach 13 years of age, their school attendance rate
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mHf-s7-m9e">
-                                                <rect key="frame" x="32" y="119" width="350" height="537"/>
+                                                <rect key="frame" x="32" y="116" width="350" height="613"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <mutableString key="text">While the inequality in education when it comes to gender isn’t as bad in the United States as it is in other countries, there are still many obstacles. The problem with the education system in the United States is that girls are constantly undermined and underestimated by teachers. Many teachers, especially in the math and science classes, already have the bias that boys are naturally better than girls in said subjects which negatively impacts girls because they will start to believe it. In order for girls to be recognized at the same level as boys, they need to work much harder and prove that they are just as smart. 
 </mutableString>
@@ -1070,6 +1072,7 @@ It is common that once girls reach 13 years of age, their school attendance rate
                                         <color key="backgroundColor" red="0.46437960859999999" green="0.00044702389280000001" blue="0.0126796281" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="774" id="R1G-uw-sDZ"/>
+                                            <constraint firstAttribute="width" constant="987" id="prM-z8-L7l"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -1077,6 +1080,7 @@ It is common that once girls reach 13 years of age, their school attendance rate
                                     <constraint firstAttribute="height" constant="774" id="CMW-fA-sd8"/>
                                     <constraint firstItem="Ket-PH-Riu" firstAttribute="top" secondItem="gtu-Yk-UpY" secondAttribute="top" id="Hzi-DB-0UV"/>
                                     <constraint firstAttribute="trailing" secondItem="Ket-PH-Riu" secondAttribute="trailing" id="UTM-jK-vZq"/>
+                                    <constraint firstAttribute="trailing" secondItem="Ket-PH-Riu" secondAttribute="trailing" constant="573" id="UgO-8f-h7o"/>
                                     <constraint firstItem="Ket-PH-Riu" firstAttribute="leading" secondItem="gtu-Yk-UpY" secondAttribute="leading" id="Wq7-2p-ZWS"/>
                                     <constraint firstItem="Ket-PH-Riu" firstAttribute="height" secondItem="j4T-4X-TAG" secondAttribute="height" id="nZm-CV-OW2"/>
                                     <constraint firstAttribute="bottom" secondItem="Ket-PH-Riu" secondAttribute="bottom" id="xKK-qa-o3c"/>
@@ -1098,7 +1102,7 @@ It is common that once girls reach 13 years of age, their school attendance rate
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6J6-zT-xUe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5185.507246376812" y="270.53571428571428"/>
+            <point key="canvasLocation" x="5743" y="-360"/>
         </scene>
         <!--AsiaVC-->
         <scene sceneID="KdR-om-iSO">
@@ -1198,7 +1202,7 @@ It is common that once girls reach 13 years of age, their school attendance rate
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="upq-0n-4E3">
-                                                <rect key="frame" x="488" y="111" width="350" height="238"/>
+                                                <rect key="frame" x="451" y="111" width="350" height="238"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">78% of girls are subjected to some type of  abuse at home which discourages them from pursuing an education by affecting their sense of self-worth and well being. Additionally, many girls get sexually assualted by teachers and older students.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
@@ -1206,14 +1210,14 @@ It is common that once girls reach 13 years of age, their school attendance rate
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Abuse" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Ge-FM-zwZ">
-                                                <rect key="frame" x="501" y="29" width="324" height="74"/>
+                                                <rect key="frame" x="464" y="29" width="324" height="74"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hSw-jE-DGN">
-                                                <rect key="frame" x="982" y="111" width="350" height="473"/>
+                                                <rect key="frame" x="873" y="111" width="350" height="466"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <mutableString key="text">Thankfully, there are many non government organizations that help Ecuadorian girls. The first organization is WE and it focuses on running girls clubs and rehabilitating schools in rural areas. The second organization, Plan International Ecuador, encourages girls to envision successful futures and helps them start to think about career plans. The last organization, CENIT, provides vocational, educational, psychological, health, and social services while decreasing abuse in workplaces for girls and improving conditions. </mutableString>
                                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
@@ -1221,7 +1225,7 @@ It is common that once girls reach 13 years of age, their school attendance rate
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Organizations" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GnM-lR-tz1">
-                                                <rect key="frame" x="995" y="29" width="324" height="74"/>
+                                                <rect key="frame" x="886" y="29" width="324" height="74"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -1261,7 +1265,7 @@ It is common that once girls reach 13 years of age, their school attendance rate
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="53r-QF-VcC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1612" y="1111"/>
+            <point key="canvasLocation" x="1611.5942028985507" y="1110.9375"/>
         </scene>
         <!--South ReviewVC-->
         <scene sceneID="7k6-6i-KxM">
@@ -1400,7 +1404,7 @@ It is common that once girls reach 13 years of age, their school attendance rate
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LMI-hG-Eui">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LMI-hG-Eui">
                                 <rect key="frame" x="0.0" y="88" width="414" height="757"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a2u-ux-8CP">

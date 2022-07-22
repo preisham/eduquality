@@ -17,25 +17,37 @@ class southReviewVC: UIViewController {
     
     var questions4: [Question4] = [
         Question4(
-        question4: "Which of the following is true?",
-        answers4: ["The Central African Republic has one of the highest literacy rates in all of Africa", "32% of youth in the nation are literate.", "The male literacy rate is 49%", "The nation’s male literacy rate is more than twice as high as the female literacy rate"],
-        correctAnswer4: 3),
+        question4: "What does the organization CENIT do?",
+        answers4: ["Encourages girls to envision successful futures",
+                   "Provides a variety of services while decreasing abuse in workplaces",
+                   "Rehabilitizes schools in rural areas",
+                   "Runs girls clubs"],
+        correctAnswer4: 1),
         
         Question4(
-        question4: "Why is the female literacy rate so low?",
-        answers4: ["School for girls is banned",
-                  "Boys learn faster",
-                  "Females are forced into child marriage",
-                  "None of the above"],
+        question4: "What percentage of girls are subjected to some sort of abuse?",
+        answers4: ["17%",
+                  "68%",
+                   "78%",
+                   "50%"],
         correctAnswer4: 2),
         
         Question4(
-        question4: "Which of the following is false?",
-        answers4: ["There is one school teacher for every 64 students",
-                  "There is one school teacher for every 80 students",
-                  "Twice as many girls than boys do not attend school",
-                  "38% of girls in the nation do not attend school"],
-        correctAnswer4: 0)
+        question4: "What is the Centro Educativo Mbaracayu?",
+        answers4: ["A non-profit organization",
+                   "A boarding school for girls",
+                   "A government organization",
+                   "A forest nature reserve"],
+        correctAnswer4: 1),
+       
+        Question4(
+        question4: "What causes the gender gap in education?",
+        answers4: ["Girls getting married at a young age",
+                   "Girls dropping out of school",
+                   "Poverty",
+                   "All of the above"],
+        correctAnswer4: 3),
+
         
 ]
     
