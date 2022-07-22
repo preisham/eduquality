@@ -38,6 +38,12 @@
 		76D5A0DB2889A0FE001BA71C /* ecuadorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D5A0DA2889A0FE001BA71C /* ecuadorVC.swift */; };
 		76D5A0DD2889A11B001BA71C /* paraguayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D5A0DC2889A11B001BA71C /* paraguayVC.swift */; };
 		76D5A0DF2889C6C0001BA71C /* scoreAfricaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D5A0DE2889C6C0001BA71C /* scoreAfricaVC.swift */; };
+		76D5A0E1288A3046001BA71C /* asiaReviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D5A0E0288A3045001BA71C /* asiaReviewVC.swift */; };
+		76D5A0E3288A306A001BA71C /* asiaScoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D5A0E2288A306A001BA71C /* asiaScoreVC.swift */; };
+		76D5A0E5288A312A001BA71C /* northReviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D5A0E4288A312A001BA71C /* northReviewVC.swift */; };
+		76D5A0E7288A3140001BA71C /* northScoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D5A0E6288A3140001BA71C /* northScoreVC.swift */; };
+		76D5A0E9288A315D001BA71C /* southReviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D5A0E8288A315D001BA71C /* southReviewVC.swift */; };
+		76D5A0EB288A317C001BA71C /* southScoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D5A0EA288A317C001BA71C /* southScoreVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +99,12 @@
 		76D5A0DA2889A0FE001BA71C /* ecuadorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ecuadorVC.swift; sourceTree = "<group>"; };
 		76D5A0DC2889A11B001BA71C /* paraguayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = paraguayVC.swift; sourceTree = "<group>"; };
 		76D5A0DE2889C6C0001BA71C /* scoreAfricaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scoreAfricaVC.swift; sourceTree = "<group>"; };
+		76D5A0E0288A3045001BA71C /* asiaReviewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = asiaReviewVC.swift; sourceTree = "<group>"; };
+		76D5A0E2288A306A001BA71C /* asiaScoreVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = asiaScoreVC.swift; sourceTree = "<group>"; };
+		76D5A0E4288A312A001BA71C /* northReviewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = northReviewVC.swift; sourceTree = "<group>"; };
+		76D5A0E6288A3140001BA71C /* northScoreVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = northScoreVC.swift; sourceTree = "<group>"; };
+		76D5A0E8288A315D001BA71C /* southReviewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = southReviewVC.swift; sourceTree = "<group>"; };
+		76D5A0EA288A317C001BA71C /* southScoreVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = southScoreVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,11 +163,18 @@
 				7692586E28884F7300B8B13A /* signUpVC.swift */,
 				769258562887411600B8B13A /* africaVC.swift */,
 				76D5A0D428890FA7001BA71C /* africaReviewVC.swift */,
+				76D5A0DE2889C6C0001BA71C /* scoreAfricaVC.swift */,
 				769258582887412E00B8B13A /* asiaVC.swift */,
+				76D5A0E0288A3045001BA71C /* asiaReviewVC.swift */,
+				76D5A0E2288A306A001BA71C /* asiaScoreVC.swift */,
 				7692585A2887414600B8B13A /* australiaVC.swift */,
 				7692585C2887416300B8B13A /* europeVC.swift */,
 				7692585E2887418E00B8B13A /* northAmericaVC.swift */,
+				76D5A0E4288A312A001BA71C /* northReviewVC.swift */,
+				76D5A0E6288A3140001BA71C /* northScoreVC.swift */,
 				76925860288741A100B8B13A /* southVC.swift */,
+				76D5A0E8288A315D001BA71C /* southReviewVC.swift */,
+				76D5A0EA288A317C001BA71C /* southScoreVC.swift */,
 				769258742888708D00B8B13A /* guineaVC.swift */,
 				76D5A0CE2888DE96001BA71C /* centralAfricanRepublicVC.swift */,
 				76D5A0D02888FB2C001BA71C /* ethiopiaVC.swift */,
@@ -164,7 +183,6 @@
 				76D5A0D82889A0C4001BA71C /* canadaVC.swift */,
 				76D5A0DA2889A0FE001BA71C /* ecuadorVC.swift */,
 				76D5A0DC2889A11B001BA71C /* paraguayVC.swift */,
-				76D5A0DE2889C6C0001BA71C /* scoreAfricaVC.swift */,
 				7692582A28870FB600B8B13A /* eduquality.xcdatamodeld */,
 				7692587228885F3A00B8B13A /* childhood.mp3 */,
 				7692587028885A6900B8B13A /* GoogleService-Info.plist */,
@@ -328,6 +346,7 @@
 			files = (
 				76D5A0DB2889A0FE001BA71C /* ecuadorVC.swift in Sources */,
 				7692582628870FB600B8B13A /* ViewController.swift in Sources */,
+				76D5A0E3288A306A001BA71C /* asiaScoreVC.swift in Sources */,
 				769258632887485C00B8B13A /* welcomeVC.swift in Sources */,
 				7692585B2887414600B8B13A /* australiaVC.swift in Sources */,
 				76D5A0DF2889C6C0001BA71C /* scoreAfricaVC.swift in Sources */,
@@ -339,15 +358,20 @@
 				76D5A0D32888FD60001BA71C /* afghanistanVC.swift in Sources */,
 				769258592887412E00B8B13A /* asiaVC.swift in Sources */,
 				76D5A0D12888FB2C001BA71C /* ethiopiaVC.swift in Sources */,
+				76D5A0E7288A3140001BA71C /* northScoreVC.swift in Sources */,
 				76D5A0CF2888DE96001BA71C /* centralAfricanRepublicVC.swift in Sources */,
 				7692585F2887418E00B8B13A /* northAmericaVC.swift in Sources */,
 				76925861288741A100B8B13A /* southVC.swift in Sources */,
 				769258572887411600B8B13A /* africaVC.swift in Sources */,
+				76D5A0E5288A312A001BA71C /* northReviewVC.swift in Sources */,
+				76D5A0E9288A315D001BA71C /* southReviewVC.swift in Sources */,
 				7692582C28870FB600B8B13A /* eduquality.xcdatamodeld in Sources */,
 				76D5A0D528890FA7001BA71C /* africaReviewVC.swift in Sources */,
+				76D5A0EB288A317C001BA71C /* southScoreVC.swift in Sources */,
 				76D5A0DD2889A11B001BA71C /* paraguayVC.swift in Sources */,
 				7692586D28884F4500B8B13A /* loginVC.swift in Sources */,
 				7692586F28884F7300B8B13A /* signUpVC.swift in Sources */,
+				76D5A0E1288A3046001BA71C /* asiaReviewVC.swift in Sources */,
 				7692582428870FB600B8B13A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
