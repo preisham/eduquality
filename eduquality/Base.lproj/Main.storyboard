@@ -131,54 +131,60 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MBc-yP-Wpg">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MBc-yP-Wpg">
                                 <rect key="frame" x="0.0" y="88" width="414" height="774"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9EP-yZ-B3V">
-                                        <rect key="frame" x="0.0" y="0.0" width="1715" height="744"/>
+                                        <rect key="frame" x="-21" y="0.0" width="1715" height="744"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Child Marriage" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="viY-aJ-3R3">
-                                                <rect key="frame" x="95" y="46" width="211" height="36"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="30"/>
-                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gpl-L6-FGj">
-                                                <rect key="frame" x="35" y="90" width="331" height="431"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">There is a steep drop in girls’ enrollment between primary and secondary school. While close to 77 percent of girls attend primary school, only 25 percent of girls of secondary school age are attending. This dramatic difference is largely due to teen girls dropping out to help at home or as a result of child marriage. </string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Gender Discrimination" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OdR-JP-MLv">
-                                                <rect key="frame" x="437" y="46" width="313" height="36"/>
+                                                <rect key="frame" x="472" y="44" width="313" height="36"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qQE-YZ-bee">
-                                                <rect key="frame" x="421" y="88" width="344" height="500"/>
+                                                <rect key="frame" x="462" y="117" width="332" height="365"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">Gender bias hinders girls’ education in Guinea. Families with multiple children, especially those in rural areas, tend to choose to educate boys instead of girls. Guinean girls face the issue of being taken out of school to help with younger siblings and assist with cooking or other housework. This significantly affects their ability to keep up with schoolwork, which furthers the likelihood of dropping out altogether.</string>
+                                                <string key="text">The education of females is also hindered in Guinea by gender discrimination. In large families with several children, particularly in rural areas, it is common practice to choose to educate sons over daughters. Guinea also has an issue with females skipping school to care of younger siblings, cook, or perform other household chores. As a result, many female students dropped out of school.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Lack of Facilities" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GYL-2I-GR2">
-                                                <rect key="frame" x="870" y="46" width="233" height="36"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GYL-2I-GR2">
+                                                <rect key="frame" x="892" y="44" width="307" height="36"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">Female Literacy Rates
+</string>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NIy-YL-bFJ">
-                                                <rect key="frame" x="814" y="117" width="345" height="376"/>
+                                                <rect key="frame" x="873" y="99" width="345" height="383"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">A lack of proper toilet facilities keeps many girls out of school. For girls of menstruating age, the ability to dispose of sanitary pads and wash their hands in a single-sex bathroom is essential. UNICEF estimates that 10 percent of female students in Africa will skip school during their periods due to improper facilities, resulting in missed lessons and raising the likelihood of abandoning school altogether. </string>
+                                                <string key="text">The literacy rates between urban and rural areas also continue to differ significantly in Guinea. In urban regions, 53% of women between the ages of 15 and 24 are literate; in rural areas, just 15% of women in this age group are. Education is significantly more difficult for rural Guinean females since families in remote areas are more inclined to keep girls at home to help with housework, especially if school is farther away.
+</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gpl-L6-FGj">
+                                                <rect key="frame" x="44" y="70" width="336" height="542"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <mutableString key="text">In Guinea, between elementary and secondary school, there is a significant decline in the enrolment of girls. While over 77% of females attend elementary school, just 25% of girls who are old enough to start secondary school are actually in attendance. This significant discrepancy is mostly the result of teenage females leaving school to assist at home, or as a result of child marriage. Other factors contributing to this also include a lack of proper toilet facilities and gender-based violence; including sexual harrasment and assault.
+</mutableString>
+                                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="viY-aJ-3R3">
+                                                <rect key="frame" x="74" y="43" width="276" height="36"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">The Consequences
+</string>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="30"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -196,6 +202,7 @@
                                     <constraint firstAttribute="trailing" secondItem="9EP-yZ-B3V" secondAttribute="trailing" id="2rf-9w-Vf6"/>
                                     <constraint firstAttribute="bottom" secondItem="9EP-yZ-B3V" secondAttribute="bottom" id="HL6-pF-AQW"/>
                                     <constraint firstItem="9EP-yZ-B3V" firstAttribute="top" secondItem="MBc-yP-Wpg" secondAttribute="top" id="KIt-ez-c7x"/>
+                                    <constraint firstItem="9EP-yZ-B3V" firstAttribute="height" secondItem="7ch-bN-y1R" secondAttribute="height" id="W0w-7A-EgN"/>
                                     <constraint firstItem="9EP-yZ-B3V" firstAttribute="leading" secondItem="MBc-yP-Wpg" secondAttribute="leading" id="trf-fx-fNj"/>
                                 </constraints>
                                 <viewLayoutGuide key="contentLayoutGuide" id="7ch-bN-y1R"/>
@@ -216,7 +223,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dRI-TR-Dz3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="887" y="-1523"/>
+            <point key="canvasLocation" x="886.95652173913049" y="-1523.4375"/>
         </scene>
         <!--Central African RepublicVC-->
         <scene sceneID="fc7-Ai-qfo">
@@ -226,63 +233,107 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MYJ-2t-lHk">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jyL-MO-sZd">
                                 <rect key="frame" x="0.0" y="88" width="414" height="774"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wwn-6o-8wW">
-                                        <rect key="frame" x="0.0" y="0.0" width="1130" height="760"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4gw-fM-R3K">
+                                        <rect key="frame" x="0.0" y="0.0" width="1552" height="774"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Child Marriage" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IMV-Qp-EKv">
-                                                <rect key="frame" x="110" y="47" width="211" height="36"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nationwide Conflict" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JUJ-6S-OvW">
+                                                <rect key="frame" x="56" y="27" width="283" height="36"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="30"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Ld-gL-8Fv">
-                                                <rect key="frame" x="50" y="110" width="331" height="431"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Early Marriage" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g0A-QZ-Miu">
+                                                <rect key="frame" x="521" y="22" width="209" height="36"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">There is a steep drop in girls’ enrollment between primary and secondary school. While close to 77 percent of girls attend primary school, only 25 percent of girls of secondary school age are attending. This dramatic difference is largely due to teen girls dropping out to help at home or as a result of child marriage. </string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="30"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SnZ-8z-dnT">
+                                                <rect key="frame" x="450" y="83" width="350" height="673"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <mutableString key="text">In The Central African Republic, as of 2017, 68% of girls are married off before the age of 18, and 29% are married before the age of 15. The Central African Republic has the world's second highest rate of child marriage. Additionally, there is just one schoolteacher for every 80 students in the nation. Furthermore, nearly twice as many girls (38%) do not attend school as boys (20%). The Central African Republic, which continues to have one of the lowest literacy rates in all of Africa, has only 37% of youth between the ages of 15 and 24 who are literate. The country's 51% male literacy rate is more than twice as high as the 24% female literacy rate. This is the result of female’s being forced into child marriage, and fulfillling household gender roles. 
+</mutableString>
+                                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Early Marriage: The Story of Kadidja" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mDN-Kk-fJ8">
+                                                <rect key="frame" x="977" y="-24" width="402" height="139"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="30"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fSx-F1-4Q4">
+                                                <rect key="frame" x="897" y="113" width="264" height="612"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">Kadidja, 14, has been wed for a year now. However, she continues to go to school, unlike many married females her age.
+Early marriage is widespread and frequently causes female students to leave school in the Central African Republic (CAR) area of Bamingui-Bangoran, which is located in the north. According to UNICEF, 68% of females in CAR get married before becoming 18 years old.
+
+Kadidja chose the classroom. “I like coming to school and learning. It helps me to be more independent,” Kadidja says.
+</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zya-pB-RE6">
+                                                <rect key="frame" x="1202" y="107" width="264" height="644"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <mutableString key="text">Kadidja is still just in her second year of primary school, despite her advanced age. Many of Kadidja's classmates who are also married have children. Although Kadidja does not yet have kids of her own, she is sure that she could manage both her responsibilities as a student and a mother. She worries that her parents will stop her from going to school. “I would like to keep coming to school, but I know that my parents will try to discourage me from continuing.”  
+
+It is common that once girls reach 13 years of age, their school attendance rates decline by up to 70 percent.</mutableString>
+                                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                                <color key="textColor" red="0.96862751250000001" green="0.96862751250000001" blue="0.96862751250000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zkI-i0-EPc">
+                                                <rect key="frame" x="56" y="86" width="316" height="379"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">Both male and female students have lost many years of education due to the CAR's destroyed educational system, due to years of strife. Many communities still do not have schools today, and those that do often have overcrowded classrooms with little or no instructional material and lessons provided by parents.
+</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
                                         <color key="backgroundColor" red="0.28235294119999998" green="0.3921568627" blue="0.64313725489999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="1130" id="1MB-wa-Ppy"/>
-                                            <constraint firstAttribute="height" constant="760" id="kjN-YX-leX"/>
+                                            <constraint firstAttribute="height" constant="774" id="QIj-7J-U2s"/>
+                                            <constraint firstAttribute="width" constant="1552" id="mOj-oy-k4A"/>
                                         </constraints>
                                     </view>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="wwn-6o-8wW" secondAttribute="bottom" id="FSj-AQ-ggr"/>
-                                    <constraint firstAttribute="height" constant="755" id="GCH-23-XSD"/>
-                                    <constraint firstAttribute="trailing" secondItem="wwn-6o-8wW" secondAttribute="trailing" constant="716" id="JTM-U4-ImW"/>
-                                    <constraint firstItem="wwn-6o-8wW" firstAttribute="top" secondItem="MYJ-2t-lHk" secondAttribute="top" id="Pb5-aC-aFc"/>
-                                    <constraint firstAttribute="trailing" secondItem="wwn-6o-8wW" secondAttribute="trailing" id="V0x-KE-cb2"/>
-                                    <constraint firstItem="wwn-6o-8wW" firstAttribute="leading" secondItem="MYJ-2t-lHk" secondAttribute="leading" id="WdY-hL-Bvh"/>
-                                    <constraint firstItem="wwn-6o-8wW" firstAttribute="height" secondItem="weU-fN-6CH" secondAttribute="height" id="aed-3l-beK"/>
+                                    <constraint firstAttribute="bottom" secondItem="4gw-fM-R3K" secondAttribute="bottom" id="0ve-CU-qZP"/>
+                                    <constraint firstAttribute="trailing" secondItem="4gw-fM-R3K" secondAttribute="trailing" constant="1138" id="1d5-8c-FUY"/>
+                                    <constraint firstItem="4gw-fM-R3K" firstAttribute="leading" secondItem="jyL-MO-sZd" secondAttribute="leading" id="7sa-hH-K1z"/>
+                                    <constraint firstAttribute="trailing" secondItem="4gw-fM-R3K" secondAttribute="trailing" id="d2P-cm-pH0"/>
+                                    <constraint firstItem="4gw-fM-R3K" firstAttribute="top" secondItem="jyL-MO-sZd" secondAttribute="top" id="jTc-g1-zkC"/>
+                                    <constraint firstAttribute="height" constant="774" id="m6K-S4-Mk4"/>
                                 </constraints>
-                                <viewLayoutGuide key="contentLayoutGuide" id="weU-fN-6CH"/>
-                                <viewLayoutGuide key="frameLayoutGuide" id="iJ3-Yw-ncj"/>
+                                <viewLayoutGuide key="contentLayoutGuide" id="pFC-6k-Sie"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="2wP-2X-qJW"/>
                             </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="xE2-5w-Wf7"/>
                         <color key="backgroundColor" red="0.28235294119999998" green="0.3921568627" blue="0.64313725489999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="MYJ-2t-lHk" firstAttribute="trailing" secondItem="xE2-5w-Wf7" secondAttribute="trailing" id="9bG-Eq-P2x"/>
-                            <constraint firstItem="MYJ-2t-lHk" firstAttribute="leading" secondItem="xE2-5w-Wf7" secondAttribute="leading" id="AsC-i9-fYR"/>
-                            <constraint firstItem="xE2-5w-Wf7" firstAttribute="bottom" secondItem="MYJ-2t-lHk" secondAttribute="bottom" id="pWh-nt-ECr"/>
-                            <constraint firstItem="MYJ-2t-lHk" firstAttribute="top" secondItem="xE2-5w-Wf7" secondAttribute="top" id="qv9-cG-BQx"/>
+                            <constraint firstItem="jyL-MO-sZd" firstAttribute="trailing" secondItem="xE2-5w-Wf7" secondAttribute="trailing" id="IHu-Qu-Q8V"/>
+                            <constraint firstItem="jyL-MO-sZd" firstAttribute="leading" secondItem="xE2-5w-Wf7" secondAttribute="leading" id="du2-47-TBk"/>
+                            <constraint firstItem="jyL-MO-sZd" firstAttribute="top" secondItem="xE2-5w-Wf7" secondAttribute="top" id="hpP-Ax-Q2Q"/>
+                            <constraint firstItem="jyL-MO-sZd" firstAttribute="bottom" secondItem="xE2-5w-Wf7" secondAttribute="bottom" id="mXT-Eg-gCa"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="6fP-Fy-Nk7"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Run-MP-rWM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2141" y="-1917"/>
+            <point key="canvasLocation" x="1402.8985507246377" y="-2363.1696428571427"/>
         </scene>
         <!--EthiopiaVC-->
         <scene sceneID="ClV-mn-fld">
@@ -292,22 +343,38 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WbY-cE-71H">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="774"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WbY-cE-71H">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="l6R-ml-UIQ">
-                                        <rect key="frame" x="0.0" y="0.0" width="1397" height="774"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="l6R-ml-UIQ">
+                                        <rect key="frame" x="0.0" y="0.0" width="1121" height="774"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ayy-73-WRO">
-                                                <rect key="frame" x="43" y="151" width="331" height="431"/>
+                                                <rect key="frame" x="33" y="157" width="350" height="368"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">Ethiopian girls struggle to access free, safe, quality education. Only 25% of girls attend secondary school, an even larger issue in rural areas where there are not many schools. Even when in school, girls face abuse and sexual violence within the school environment. Inadequate bathrooms and lessons that reinforce gender discrimination make it harder to succeed. Child marriage, economic hardship and lack of sanitary pads further compound girls’ ability to remain in school.</string>
+                                                <string key="text">Ethiopian women face difficulties in obtaining affordable, safe, and high-quality education. Only 25% of girls enroll in secondary school in remote areas, which is a critical issue. Moreover, if they do attend school, girls are frequently subjected to abuse and sexual violence in the educational setting, discouraging them from attending. Factors such as child marriage, difficult financial conditions, and a lack of hygiene products all contribute to girls' inability to complete their education.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Discouraging Educational Environment" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xvb-33-OHb">
-                                                <rect key="frame" x="8" y="42" width="401" height="135"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ethiopian Struggles with Education" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xvb-33-OHb">
+                                                <rect key="frame" x="57" y="28" width="303" height="135"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="28"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jN8-Q8-fzT">
+                                                <rect key="frame" x="455" y="111" width="350" height="460"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">Ethiopia has one of the highest rates of early marriage in the world, with 15 million child brides living there. Nationwide, four out of ten females get married before they turn 18 and the majority of them have children while still in adolescence. Nine out of ten of these females will never attend primary school, much less college. They are much more likely to defend wife beating and other disempowering actions to their peers than they are to have access to basic healthcare and financial institutions.
+</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Early Marriage" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Um0-xv-2lm">
+                                                <rect key="frame" x="479" y="28" width="303" height="135"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="28"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -317,11 +384,13 @@
                                         <color key="backgroundColor" red="0.28235294119999998" green="0.3921568627" blue="0.64313725489999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="1121" id="Lbw-YU-eTB"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="774" id="e5H-d3-Jxb"/>
                                             <constraint firstAttribute="height" constant="774" id="exr-Qb-ise"/>
                                         </constraints>
                                     </view>
                                 </subviews>
                                 <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="774" id="5o9-tw-9df"/>
                                     <constraint firstAttribute="trailing" secondItem="l6R-ml-UIQ" secondAttribute="trailing" id="A76-mW-7tI"/>
                                     <constraint firstAttribute="bottom" secondItem="l6R-ml-UIQ" secondAttribute="bottom" id="BfG-py-zxE"/>
                                     <constraint firstAttribute="height" constant="774" id="GQJ-5E-Rzg"/>
@@ -338,6 +407,8 @@
                         <color key="backgroundColor" red="0.28235294119999998" green="0.3921568627" blue="0.64313725489999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="WbY-cE-71H" secondAttribute="trailing" id="5Yc-jR-oAF"/>
+                            <constraint firstItem="WbY-cE-71H" firstAttribute="top" secondItem="68Q-S3-D7Q" secondAttribute="top" id="5cc-uC-A3B"/>
+                            <constraint firstAttribute="bottom" secondItem="WbY-cE-71H" secondAttribute="bottom" id="Rmz-SJ-iqe"/>
                             <constraint firstItem="WbY-cE-71H" firstAttribute="top" secondItem="RQf-7N-Pl8" secondAttribute="top" id="iXm-tn-Utf"/>
                             <constraint firstItem="WbY-cE-71H" firstAttribute="leading" secondItem="RQf-7N-Pl8" secondAttribute="leading" id="nJA-Hk-fsb"/>
                             <constraint firstAttribute="bottom" secondItem="WbY-cE-71H" secondAttribute="bottom" id="nWS-we-MFb"/>
@@ -347,7 +418,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UCb-rc-02Z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3213" y="-1753"/>
+            <point key="canvasLocation" x="3211.594202898551" y="-1753.125"/>
         </scene>
         <!--AfricaVC-->
         <scene sceneID="XIM-zL-3ih">
@@ -461,11 +532,11 @@
         <scene sceneID="wXe-AH-eTC">
             <objects>
                 <viewController id="gzo-Gc-XEc" customClass="afghanistanVC" customModule="eduquality" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="WAW-vf-SSU">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="WAW-vf-SSU">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wah-Yc-res">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Wah-Yc-res">
                                 <rect key="frame" x="0.0" y="88" width="414" height="774"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="v3I-g7-ph5">

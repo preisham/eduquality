@@ -17,25 +17,36 @@ class northReviewVC: UIViewController {
     
     var questions3: [Question3] = [
         Question3(
-        question3: "Which of the following is true?",
-        answers3: ["The Central African Republic has one of the highest literacy rates in all of Africa", "32% of youth in the nation are literate.", "The male literacy rate is 49%", "The nation’s male literacy rate is more than twice as high as the female literacy rate"],
+        question3: "Which of the following is a reason for low female enrolment in Afghanistan? ",
+        answers3: ["Traditional and cultural norms",
+                   "Attitudes toward females",
+                   "Lack of female teachers",
+                   "All of the above"],
         correctAnswer3: 3),
         
         Question3(
-        question3: "Why is the female literacy rate so low?",
-        answers3: ["School for girls is banned",
-                  "Boys learn faster",
-                  "Females are forced into child marriage",
-                  "None of the above"],
+        question3: "What percentage of females in Afghanistan are married before turning 15?",
+        answers3: ["15%",
+                   "42%",
+                   "17%",
+                   "34%"],
         correctAnswer3: 2),
         
         Question3(
-        question3: "Which of the following is false?",
-        answers3: ["There is one school teacher for every 64 students",
-                  "There is one school teacher for every 80 students",
-                  "Twice as many girls than boys do not attend school",
-                  "38% of girls in the nation do not attend school"],
-        correctAnswer3: 0)
+        question3: "Which of the following is a sanitary issue in Nepal?",
+        answers3: ["Toilet’s are often out of order",
+                   "Only some schools have gender separated bathrooms",
+                   "There aren’t enough sanitary pads available for females on their menstrual cycle",
+                   "B and C"],
+        correctAnswer3: 3),
+        
+        Question3(
+        question3: "What percentage of Napalese women are married before the age of 18?",
+        answers3: ["54%",
+                   "39%",
+                   "60%",
+                   "43%"],
+        correctAnswer3: 3),
         
         
 ]
