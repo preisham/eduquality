@@ -113,6 +113,17 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bBK-ls-9UF">
+                                <rect key="frame" x="133" y="785" width="148" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="resource links">
+                                    <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="qow-8C-POH" kind="show" id="SWn-Ue-M4N"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -122,6 +133,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1734.7826086956522" y="69.642857142857139"/>
+        </scene>
+        <!--Resource LinksVC-->
+        <scene sceneID="PtH-7X-Lon">
+            <objects>
+                <viewController id="qow-8C-POH" customClass="resourceLinksVC" customModule="eduquality" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ptr-ld-TqZ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="f9Y-at-3yV"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="gW1-M4-Lhn"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Awb-dh-gtT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1620" y="717"/>
         </scene>
         <!--GuineaVC-->
         <scene sceneID="o0h-JZ-5YI">
@@ -173,8 +200,8 @@
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gpl-L6-FGj">
                                                 <rect key="frame" x="44" y="70" width="336" height="542"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <mutableString key="text">In Guinea, between elementary and secondary school, there is a significant decline in the enrolment of girls. While over 77% of females attend elementary school, just 25% of girls who are old enough to start secondary school are actually in attendance. This significant discrepancy is mostly the result of teenage females leaving school to assist at home, or as a result of child marriage. Other factors contributing to this also include a lack of proper toilet facilities and gender-based violence; including sexual harrasment and assault.
-</mutableString>
+                                                <string key="text">In Guinea, between elementary and secondary school, there is a significant decline in the enrolment of girls. While over 77% of females attend elementary school, just 25% of girls who are old enough to start secondary school are actually in attendance. This significant discrepancy is mostly the result of teenage females leaving school to assist at home, or as a result of child marriage. Other factors contributing to this also include a lack of proper toilet facilities and gender-based violence; including sexual harrasment and assault.
+</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
@@ -256,8 +283,8 @@
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SnZ-8z-dnT">
                                                 <rect key="frame" x="450" y="83" width="350" height="673"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <mutableString key="text">In The Central African Republic, as of 2017, 68% of girls are married off before the age of 18, and 29% are married before the age of 15. The Central African Republic has the world's second highest rate of child marriage. Additionally, there is just one schoolteacher for every 80 students in the nation. Furthermore, nearly twice as many girls (38%) do not attend school as boys (20%). The Central African Republic, which continues to have one of the lowest literacy rates in all of Africa, has only 37% of youth between the ages of 15 and 24 who are literate. The country's 51% male literacy rate is more than twice as high as the 24% female literacy rate. This is the result of female’s being forced into child marriage, and fulfillling household gender roles. 
-</mutableString>
+                                                <string key="text">In The Central African Republic, as of 2017, 68% of girls are married off before the age of 18, and 29% are married before the age of 15. The Central African Republic has the world's second highest rate of child marriage. Additionally, there is just one schoolteacher for every 80 students in the nation. Furthermore, nearly twice as many girls (38%) do not attend school as boys (20%). The Central African Republic, which continues to have one of the lowest literacy rates in all of Africa, has only 37% of youth between the ages of 15 and 24 who are literate. The country's 51% male literacy rate is more than twice as high as the 24% female literacy rate. This is the result of female’s being forced into child marriage, and fulfillling household gender roles. 
+</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
@@ -284,9 +311,9 @@ Kadidja chose the classroom. “I like coming to school and learning. It helps m
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zya-pB-RE6">
                                                 <rect key="frame" x="1202" y="107" width="264" height="644"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <mutableString key="text">Kadidja is still just in her second year of primary school, despite her advanced age. Many of Kadidja's classmates who are also married have children. Although Kadidja does not yet have kids of her own, she is sure that she could manage both her responsibilities as a student and a mother. She worries that her parents will stop her from going to school. “I would like to keep coming to school, but I know that my parents will try to discourage me from continuing.”  
+                                                <string key="text">Kadidja is still just in her second year of primary school, despite her advanced age. Many of Kadidja's classmates who are also married have children. Although Kadidja does not yet have kids of her own, she is sure that she could manage both her responsibilities as a student and a mother. She worries that her parents will stop her from going to school. “I would like to keep coming to school, but I know that my parents will try to discourage me from continuing.”  
 
-It is common that once girls reach 13 years of age, their school attendance rates decline by up to 70 percent.</mutableString>
+It is common that once girls reach 13 years of age, their school attendance rates decline by up to 70 percent.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                                 <color key="textColor" red="0.96862751250000001" green="0.96862751250000001" blue="0.96862751250000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -545,9 +572,9 @@ It is common that once girls reach 13 years of age, their school attendance rate
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6HR-4u-WQV">
                                                 <rect key="frame" x="40" y="113" width="350" height="560"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <mutableString key="text">Afghanistan has an estimated 3.7 million out-of-school children; 60% of whom are female. The main reasons for low female enrolment are traditional norms and attitudes around female roles in society. Additionally, a lack of female teachers, particularly in rural schools, contributes to low female enrolment as well. Afghanistan has only 16% of schools that are exclusively for girls, and many of them lack adequate sanitary facilities, which makes it difficult for students to attend. Also, cultural norms and particular societal aspects limit the academic success of women. 
+                                                <string key="text">Afghanistan has an estimated 3.7 million out-of-school children; 60% of whom are female. The main reasons for low female enrolment are traditional norms and attitudes around female roles in society. Additionally, a lack of female teachers, particularly in rural schools, contributes to low female enrolment as well. Afghanistan has only 16% of schools that are exclusively for girls, and many of them lack adequate sanitary facilities, which makes it difficult for students to attend. Also, cultural norms and particular societal aspects limit the academic success of women. 
 
-</mutableString>
+</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -570,7 +597,7 @@ It is common that once girls reach 13 years of age, their school attendance rate
                                                 <rect key="frame" x="448" y="71" width="368" height="615"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                <mutableString key="text">While prohibited, child marriage is widespread in Afghanistan. Women must be at least 15 or 16 years old to be married, while men must be at least 18 years old. In the past, many families chose child marriages to repay any personal debts, resolve conflicts, or forge connections with other families to lessen their number of enemies. 17% of Afghan girls get married before becoming 15 years old, which is a typical practice. Men decide whether to sell off daughters for marriage, with little or no input from spouses, mothers, sisters, or the girls themselves. Due to early marriage and a lack of access to reproductive health information and services, about 10% of Afghan adolescent females (aged 15 to 19) give birth each year.</mutableString>
+                                                <string key="text">While prohibited, child marriage is widespread in Afghanistan. Women must be at least 15 or 16 years old to be married, while men must be at least 18 years old. In the past, many families chose child marriages to repay any personal debts, resolve conflicts, or forge connections with other families to lessen their number of enemies. 17% of Afghan girls get married before becoming 15 years old, which is a typical practice. Men decide whether to sell off daughters for marriage, with little or no input from spouses, mothers, sisters, or the girls themselves. Due to early marriage and a lack of access to reproductive health information and services, about 10% of Afghan adolescent females (aged 15 to 19) give birth each year.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -621,7 +648,7 @@ It is common that once girls reach 13 years of age, their school attendance rate
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aND-YT-7QV">
-                                <rect key="frame" x="0.0" y="80" width="414" height="782"/>
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GCq-PZ-5m1">
                                         <rect key="frame" x="0.0" y="0.0" width="1557" height="782"/>
@@ -644,7 +671,7 @@ It is common that once girls reach 13 years of age, their school attendance rate
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eqc-D5-rJq">
                                                 <rect key="frame" x="437" y="110" width="355" height="443"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <mutableString key="text">Only one-third of Nepalese schools have gender-separate restrooms. Some people are discouraged from going to school because of worries about modesty or, occasionally, because they find it difficult to adhere to religious guidelines that call for bathroom separation. One of the main obstacles to girls' education in Nepal is their menstrual cycle, which causes them to miss school. Girls miss school during that time, since there aren't enough sanitary pads available and inadequate restroom facilities in schools.</mutableString>
+                                                <string key="text">Only one-third of Nepalese schools have gender-separate restrooms. Some people are discouraged from going to school because of worries about modesty or, occasionally, because they find it difficult to adhere to religious guidelines that call for bathroom separation. One of the main obstacles to girls' education in Nepal is their menstrual cycle, which causes them to miss school. Girls miss school during that time, since there aren't enough sanitary pads available and inadequate restroom facilities in schools.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -666,7 +693,7 @@ It is common that once girls reach 13 years of age, their school attendance rate
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tgQ-8j-NJO">
                                                 <rect key="frame" x="892" y="90" width="350" height="570"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <mutableString key="text">In Nepal, which has a population of around 30 million, more than half of the people wed when still minors. 41% of Nepali women between the ages of 20 and 24 get married before turning 18. With 662,000 child brides, Nepal has the 17th highest total number of child brides worldwide and the 16th highest prevalence rate of child marriage. UNICEF states that 60% of Nepalese women were already married by the time they were 18. Girls who marry at such a young age stop attending school and begin caring for their in-laws. Very few of them have the option to return to education after having children. They labor for their new family during their spare time. </mutableString>
+                                                <string key="text">In Nepal, which has a population of around 30 million, more than half of the people wed when still minors. 41% of Nepali women between the ages of 20 and 24 get married before turning 18. With 662,000 child brides, Nepal has the 17th highest total number of child brides worldwide and the 16th highest prevalence rate of child marriage. UNICEF states that 60% of Nepalese women were already married by the time they were 18. Girls who marry at such a young age stop attending school and begin caring for their in-laws. Very few of them have the option to return to education after having children. They labor for their new family during their spare time. </string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -1062,8 +1089,8 @@ It is common that once girls reach 13 years of age, their school attendance rate
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mHf-s7-m9e">
                                                 <rect key="frame" x="32" y="116" width="350" height="613"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <mutableString key="text">While the inequality in education when it comes to gender isn’t as bad in the United States as it is in other countries, there are still many obstacles. The problem with the education system in the United States is that girls are constantly undermined and underestimated by teachers. Many teachers, especially in the math and science classes, already have the bias that boys are naturally better than girls in said subjects which negatively impacts girls because they will start to believe it. In order for girls to be recognized at the same level as boys, they need to work much harder and prove that they are just as smart. 
-</mutableString>
+                                                <string key="text">While the inequality in education when it comes to gender isn’t as bad in the United States as it is in other countries, there are still many obstacles. The problem with the education system in the United States is that girls are constantly undermined and underestimated by teachers. Many teachers, especially in the math and science classes, already have the bias that boys are naturally better than girls in said subjects which negatively impacts girls because they will start to believe it. In order for girls to be recognized at the same level as boys, they need to work much harder and prove that they are just as smart. 
+</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -1226,7 +1253,7 @@ It is common that once girls reach 13 years of age, their school attendance rate
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hSw-jE-DGN">
                                                 <rect key="frame" x="873" y="111" width="324" height="535"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <mutableString key="text">Thankfully, there are many non government organizations that help Ecuadorian girls. The first organization is WE and it focuses on running girls clubs and rehabilitating schools in rural areas. The second organization, Plan International Ecuador, encourages girls to envision successful futures and helps them start to think about career plans. The last organization, CENIT, provides vocational, educational, psychological, health, and social services while decreasing abuse in workplaces for girls and improving conditions. </mutableString>
+                                                <string key="text">Thankfully, there are many non government organizations that help Ecuadorian girls. The first organization is WE and it focuses on running girls clubs and rehabilitating schools in rural areas. The second organization, Plan International Ecuador, encourages girls to envision successful futures and helps them start to think about career plans. The last organization, CENIT, provides vocational, educational, psychological, health, and social services while decreasing abuse in workplaces for girls and improving conditions. </string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -1265,7 +1292,7 @@ It is common that once girls reach 13 years of age, their school attendance rate
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="53r-QF-VcC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1611.5942028985507" y="1110.9375"/>
+            <point key="canvasLocation" x="2316" y="1327"/>
         </scene>
         <!--South ReviewVC-->
         <scene sceneID="7k6-6i-KxM">
@@ -1468,7 +1495,7 @@ It is common that once girls reach 13 years of age, their school attendance rate
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EbA-MY-NOs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="698.55072463768124" y="1110.9375"/>
+            <point key="canvasLocation" x="1701" y="1673"/>
         </scene>
         <!--North ReviewVC-->
         <scene sceneID="9UI-Kk-3up">
