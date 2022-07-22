@@ -9,21 +9,33 @@ import UIKit
 
 class resourceLinksVC: UIViewController {
 
+    @IBOutlet weak var womenOneButton: UIButton!
+    
+    @IBOutlet weak var malalaButton: UIButton!
+    
+    @IBOutlet weak var organizationButton: UIButton!
+    
+    @IBOutlet weak var genderInequalityButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        womenOneButton.addTarget(self, action: #selector(openLink), for: .touchUpInside)
+        malalaButton.addTarget(self, action: #selector(openLink), for: .touchUpInside)
+        organizationButton.addTarget(self, action: #selector(openLink), for: .touchUpInside)
+        genderInequalityButton.addTarget(self, action: #selector(openLink), for: .touchUpInside)
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+   @objc func openLink() {
+        if let urlToOpen = URL(string: "https://www.womenone.org/") {
+            UIApplication.shared.open(urlToOpen, options: [:], completionHandler: nil)
+        }
+    
+    if let urlToOpen = URL(string: "https://malala.org/") {
+        UIApplication.shared.open(urlToOpen, options: [:], completionHandler: nil)
     }
-    */
-
+       if let urlToOpen = URL(string: "https://www.cnn.com/2016/09/28/world/iyw-girl-up-michelle-obama-girls-education-how-to-help/index.html") { UIApplication.shared.open(urlToOpen, options: [:], completionHandler: nil)}
+       if let urlToOpen = URL(string: "https://p4hglobal.org/p4h-blog/2019/4/12/gender-inequality-in-education") {
+           UIApplication.shared.open(urlToOpen, options: [:], completionHandler: nil)
+       }
+   }
 }
