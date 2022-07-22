@@ -1532,40 +1532,40 @@ In summary, in order for a girl to be rated as mathematically capable as her mal
         <scene sceneID="cyx-I9-Xel">
             <objects>
                 <viewController id="KTa-4f-msA" customClass="paraguayVC" customModule="eduquality" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="hpo-wH-vFX" customClass="para">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="hpo-wH-vFX" customClass="para">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LMI-hG-Eui">
-                                <rect key="frame" x="0.0" y="88" width="414" height="757"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VWU-c4-Vwb">
+                                <rect key="frame" x="0.0" y="88" width="414" height="747"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a2u-ux-8CP">
-                                        <rect key="frame" x="0.0" y="0.0" width="1023" height="757"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GuH-oo-9Fw">
+                                        <rect key="frame" x="0.0" y="0.0" width="999" height="747"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Introduction" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vEn-yA-utI">
-                                                <rect key="frame" x="51" y="8" width="324" height="74"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Introduction" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pJv-Jo-MTA">
+                                                <rect key="frame" x="64" y="23" width="324" height="74"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MiH-T2-FWZ">
-                                                <rect key="frame" x="38" y="90" width="350" height="263"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pgV-jj-TfA">
+                                                <rect key="frame" x="51" y="105" width="350" height="277"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">In Paraguay literacy rates for women are thankfully rising, however there are still problems that they face. Many school-age girls drop out of secondary school or just don’t go at all. Not to mention the fact that some girls get married very young, especially ones living in poverty. </string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Girls' School" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oYA-jX-Gqm">
-                                                <rect key="frame" x="467" y="8" width="324" height="74"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Boarding School " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cep-N0-Ws8">
+                                                <rect key="frame" x="521" y="23" width="324" height="74"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="on5-kR-393">
-                                                <rect key="frame" x="454" y="90" width="350" height="387"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9cH-mA-Bmz">
+                                                <rect key="frame" x="508" y="105" width="350" height="429"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">There is a boarding school called The Centro Educativo Mbaracayu that was founded in 2009 and is located in the Mbaracayu Forest Nature Reserve. The school is mainly for indigenouss girls and tuition is free for them, but anyone else who wants to join has to pay tuition. At the school, the students are taught reproductive and sexual education, alongside agribusiness and IT skills. All the classes are taught in accordance with Paraguay's educational standards.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
@@ -1573,34 +1573,41 @@ In summary, in order for a girl to be rated as mathematically capable as her mal
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
-                                        <color key="backgroundColor" red="0.87318640950000004" green="0.27500158549999998" blue="0.01207816508" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.88498467209999998" green="0.27892997860000002" blue="0.01112959813" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="1023" id="IrH-f1-waY"/>
-                                            <constraint firstAttribute="height" constant="757" id="rka-EH-w3e"/>
+                                            <constraint firstAttribute="width" constant="999" id="S2A-jf-CMH"/>
+                                            <constraint firstAttribute="height" constant="747" id="ybU-Qb-hgu"/>
                                         </constraints>
                                     </view>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="a2u-ux-8CP" firstAttribute="height" secondItem="h6C-mp-XEv" secondAttribute="height" id="0Xh-mw-POi"/>
-                                    <constraint firstAttribute="bottom" secondItem="a2u-ux-8CP" secondAttribute="bottom" id="Mra-P5-RLH"/>
-                                    <constraint firstAttribute="trailing" secondItem="a2u-ux-8CP" secondAttribute="trailing" id="NVb-dm-hpu"/>
-                                    <constraint firstItem="a2u-ux-8CP" firstAttribute="leading" secondItem="LMI-hG-Eui" secondAttribute="leading" id="NuM-YZ-ijA"/>
-                                    <constraint firstAttribute="height" constant="757" id="PNy-JB-fcW"/>
-                                    <constraint firstAttribute="trailing" secondItem="a2u-ux-8CP" secondAttribute="trailing" constant="609" id="fis-tm-gY2"/>
-                                    <constraint firstItem="a2u-ux-8CP" firstAttribute="top" secondItem="LMI-hG-Eui" secondAttribute="top" id="qUe-7i-Thd"/>
+                                    <constraint firstAttribute="trailing" secondItem="GuH-oo-9Fw" secondAttribute="trailing" id="4DW-fC-MBq"/>
+                                    <constraint firstAttribute="height" constant="747" id="NfH-U4-p0j"/>
+                                    <constraint firstItem="GuH-oo-9Fw" firstAttribute="leading" secondItem="VWU-c4-Vwb" secondAttribute="leading" id="WGb-71-IZL"/>
+                                    <constraint firstAttribute="trailing" secondItem="GuH-oo-9Fw" secondAttribute="trailing" constant="600" id="WM8-mr-wyR"/>
+                                    <constraint firstAttribute="bottom" secondItem="GuH-oo-9Fw" secondAttribute="bottom" id="boB-HP-o1l"/>
+                                    <constraint firstItem="GuH-oo-9Fw" firstAttribute="height" secondItem="hIp-FF-2rq" secondAttribute="height" id="pYb-OI-oko"/>
+                                    <constraint firstItem="GuH-oo-9Fw" firstAttribute="top" secondItem="VWU-c4-Vwb" secondAttribute="top" id="rFK-1D-rK6"/>
                                 </constraints>
-                                <viewLayoutGuide key="contentLayoutGuide" id="h6C-mp-XEv"/>
-                                <viewLayoutGuide key="frameLayoutGuide" id="1lv-u1-gg7"/>
+                                <viewLayoutGuide key="contentLayoutGuide" id="hIp-FF-2rq"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="rW4-S5-0Gm"/>
                             </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="AzE-4h-2mi"/>
                         <color key="backgroundColor" red="0.88499349360000001" green="0.27501261230000001" blue="0.0079309577119999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="VWU-c4-Vwb" firstAttribute="leading" secondItem="AzE-4h-2mi" secondAttribute="leading" id="JlX-Dn-g9m"/>
+                            <constraint firstItem="VWU-c4-Vwb" firstAttribute="trailing" secondItem="AzE-4h-2mi" secondAttribute="trailing" id="f5O-BB-wfG"/>
+                            <constraint firstItem="AzE-4h-2mi" firstAttribute="bottom" secondItem="VWU-c4-Vwb" secondAttribute="bottom" id="l4s-w9-DFw"/>
+                            <constraint firstItem="VWU-c4-Vwb" firstAttribute="top" secondItem="AzE-4h-2mi" secondAttribute="top" id="oE6-ee-y15"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="koh-4Y-Q13"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EbA-MY-NOs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1701" y="1673"/>
+            <point key="canvasLocation" x="1402.8985507246377" y="1630.5803571428571"/>
         </scene>
         <!--North ReviewVC-->
         <scene sceneID="9UI-Kk-3up">
