@@ -29,6 +29,7 @@
 		7692587128885A6A00B8B13A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7692587028885A6900B8B13A /* GoogleService-Info.plist */; };
 		7692587328885F3A00B8B13A /* childhood.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7692587228885F3A00B8B13A /* childhood.mp3 */; };
 		769258752888708E00B8B13A /* guineaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769258742888708D00B8B13A /* guineaVC.swift */; };
+		769ECE79288A665A0077F588 /* nepalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769ECE78288A665A0077F588 /* nepalVC.swift */; };
 		76D5A0CF2888DE96001BA71C /* centralAfricanRepublicVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D5A0CE2888DE96001BA71C /* centralAfricanRepublicVC.swift */; };
 		76D5A0D12888FB2C001BA71C /* ethiopiaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D5A0D02888FB2C001BA71C /* ethiopiaVC.swift */; };
 		76D5A0D32888FD60001BA71C /* afghanistanVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D5A0D22888FD60001BA71C /* afghanistanVC.swift */; };
@@ -90,6 +91,7 @@
 		7692587028885A6900B8B13A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		7692587228885F3A00B8B13A /* childhood.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = childhood.mp3; sourceTree = "<group>"; };
 		769258742888708D00B8B13A /* guineaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = guineaVC.swift; sourceTree = "<group>"; };
+		769ECE78288A665A0077F588 /* nepalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nepalVC.swift; sourceTree = "<group>"; };
 		76D5A0CE2888DE96001BA71C /* centralAfricanRepublicVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = centralAfricanRepublicVC.swift; sourceTree = "<group>"; };
 		76D5A0D02888FB2C001BA71C /* ethiopiaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ethiopiaVC.swift; sourceTree = "<group>"; };
 		76D5A0D22888FD60001BA71C /* afghanistanVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = afghanistanVC.swift; sourceTree = "<group>"; };
@@ -183,6 +185,7 @@
 				76D5A0D82889A0C4001BA71C /* canadaVC.swift */,
 				76D5A0DA2889A0FE001BA71C /* ecuadorVC.swift */,
 				76D5A0DC2889A11B001BA71C /* paraguayVC.swift */,
+				769ECE78288A665A0077F588 /* nepalVC.swift */,
 				7692582A28870FB600B8B13A /* eduquality.xcdatamodeld */,
 				7692587228885F3A00B8B13A /* childhood.mp3 */,
 				7692587028885A6900B8B13A /* GoogleService-Info.plist */,
@@ -359,6 +362,7 @@
 				769258592887412E00B8B13A /* asiaVC.swift in Sources */,
 				76D5A0D12888FB2C001BA71C /* ethiopiaVC.swift in Sources */,
 				76D5A0E7288A3140001BA71C /* northScoreVC.swift in Sources */,
+				769ECE79288A665A0077F588 /* nepalVC.swift in Sources */,
 				76D5A0CF2888DE96001BA71C /* centralAfricanRepublicVC.swift in Sources */,
 				7692585F2887418E00B8B13A /* northAmericaVC.swift in Sources */,
 				76925861288741A100B8B13A /* southVC.swift in Sources */,
