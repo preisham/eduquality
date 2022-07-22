@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="K6P-Ak-ESd">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -614,11 +614,11 @@ It is common that once girls reach 13 years of age, their school attendance rate
         <scene sceneID="wXe-AH-eTC">
             <objects>
                 <viewController id="gzo-Gc-XEc" customClass="afghanistanVC" customModule="eduquality" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="WAW-vf-SSU">
+                    <view key="view" contentMode="scaleToFill" id="WAW-vf-SSU">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Wah-Yc-res">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Wah-Yc-res">
                                 <rect key="frame" x="0.0" y="88" width="414" height="774"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="v3I-g7-ph5">
@@ -703,7 +703,7 @@ It is common that once girls reach 13 years of age, their school attendance rate
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aND-YT-7QV">
-                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <rect key="frame" x="0.0" y="88" width="414" height="804"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GCq-PZ-5m1">
                                         <rect key="frame" x="0.0" y="0.0" width="1557" height="782"/>
@@ -739,14 +739,14 @@ It is common that once girls reach 13 years of age, their school attendance rate
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Child Marriage" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SNI-CZ-SaK">
-                                                <rect key="frame" x="905" y="8" width="324" height="74"/>
+                                                <rect key="frame" x="873" y="8" width="324" height="74"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tgQ-8j-NJO">
-                                                <rect key="frame" x="892" y="90" width="350" height="570"/>
+                                                <rect key="frame" x="860" y="90" width="350" height="570"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">In Nepal, which has a population of around 30 million, more than half of the people wed when still minors. 41% of Nepali women between the ages of 20 and 24 get married before turning 18. With 662,000 child brides, Nepal has the 17th highest total number of child brides worldwide and the 16th highest prevalence rate of child marriage. UNICEF states that 60% of Nepalese women were already married by the time they were 18. Girls who marry at such a young age stop attending school and begin caring for their in-laws. Very few of them have the option to return to education after having children. They labor for their new family during their spare time. </string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
@@ -783,10 +783,11 @@ It is common that once girls reach 13 years of age, their school attendance rate
                             <constraint firstItem="aND-YT-7QV" firstAttribute="bottom" secondItem="K4F-i1-HN3" secondAttribute="bottom" id="fA2-zR-nWR"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="31N-KV-3hh"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="owr-Ik-Jdd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4003" y="-1316"/>
+            <point key="canvasLocation" x="4242" y="-1270"/>
         </scene>
         <!--Asia ReviewVC-->
         <scene sceneID="vhH-c5-dq4">
@@ -1121,7 +1122,6 @@ Just as gender inequities are present in post-secondary attainment, they are als
                                     <constraint firstItem="aex-Kw-oiO" firstAttribute="top" secondItem="H15-Os-PpN" secondAttribute="top" id="00e-YP-xLF"/>
                                     <constraint firstAttribute="bottom" secondItem="aex-Kw-oiO" secondAttribute="bottom" id="Zf6-da-ebW"/>
                                     <constraint firstItem="aex-Kw-oiO" firstAttribute="leading" secondItem="H15-Os-PpN" secondAttribute="leading" id="e48-ZT-vbj"/>
-                                    <constraint firstAttribute="trailing" secondItem="aex-Kw-oiO" secondAttribute="trailing" constant="658" id="h1F-hB-DRd"/>
                                     <constraint firstItem="aex-Kw-oiO" firstAttribute="height" secondItem="VtS-fr-mwY" secondAttribute="height" id="hzR-1c-Uyw"/>
                                     <constraint firstAttribute="trailing" secondItem="aex-Kw-oiO" secondAttribute="trailing" id="wKP-fJ-ysx"/>
                                 </constraints>
@@ -1136,7 +1136,7 @@ Just as gender inequities are present in post-secondary attainment, they are als
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NP5-Xc-zyn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5107.2463768115949" y="320.75892857142856"/>
+            <point key="canvasLocation" x="6145" y="310"/>
         </scene>
         <!--United StatesVC-->
         <scene sceneID="2rl-cs-9LL">
@@ -1184,14 +1184,14 @@ Just as gender inequities are present in post-secondary attainment, they are als
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Teachers Underestimating Girls " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eRQ-wr-0Ii">
-                                                <rect key="frame" x="897" y="10" width="331" height="72"/>
+                                                <rect key="frame" x="871" y="29" width="331" height="72"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="30"/>
                                                 <color key="textColor" red="0.96862751250000001" green="0.96862751250000001" blue="0.96862751250000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FSV-Q6-QeE">
-                                                <rect key="frame" x="886" y="92" width="353" height="626"/>
+                                                <rect key="frame" x="860" y="111" width="353" height="626"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">When confronted with a boy and a girl of the same race and socio-economic status who performed equally well on math tests and whom the teacher rated equally well in behaving and engaging with school, the teacher rated the boy as more mathematically able—an alarming pattern that replicated in a separate data set collected after ten years.
 In summary, in order for a girl to be rated as mathematically capable as her male classmate, she not only needs to perform as well as him on a psychometrically rigorous external test, but also be seen as working harder than him. Subsequent matching and instrumental variables analyses suggested that teachers’ underrating of girls from kindergarten through third grade accounts for about half of the gender achievement gap growth in math. 
@@ -1312,6 +1312,9 @@ In summary, in order for a girl to be rated as mathematically capable as her mal
                                     <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="6mr-BV-7UJ" kind="show" id="zPe-Am-7xs"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="3px-Fx-cDt"/>
@@ -1327,11 +1330,11 @@ In summary, in order for a girl to be rated as mathematically capable as her mal
         <scene sceneID="PSp-g8-hd5">
             <objects>
                 <viewController id="RI3-aw-Iml" customClass="ecuadorVC" customModule="eduquality" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="6F7-la-ZBa">
+                    <view key="view" contentMode="scaleToFill" id="6F7-la-ZBa">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aY8-nx-HLA">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aY8-nx-HLA">
                                 <rect key="frame" x="0.0" y="88" width="414" height="774"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Z4t-GI-5JS">
@@ -1577,14 +1580,14 @@ In summary, in order for a girl to be rated as mathematically capable as her mal
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Boarding School " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cep-N0-Ws8">
-                                                <rect key="frame" x="521" y="23" width="324" height="74"/>
+                                                <rect key="frame" x="451" y="23" width="324" height="74"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9cH-mA-Bmz">
-                                                <rect key="frame" x="508" y="105" width="350" height="429"/>
+                                                <rect key="frame" x="438" y="105" width="350" height="429"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">There is a boarding school called The Centro Educativo Mbaracayu that was founded in 2009 and is located in the Mbaracayu Forest Nature Reserve. The school is mainly for indigenouss girls and tuition is free for them, but anyone else who wants to join has to pay tuition. At the school, the students are taught reproductive and sexual education, alongside agribusiness and IT skills. All the classes are taught in accordance with Paraguay's educational standards.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
@@ -2012,13 +2015,13 @@ In summary, in order for a girl to be rated as mathematically capable as her mal
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ubv-HW-yZI">
-                                <rect key="frame" x="41" y="307" width="353" height="34"/>
+                                <rect key="frame" x="72" y="340" width="271" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QP3-3R-kZF">
-                                <rect key="frame" x="41" y="223" width="353" height="34"/>
+                                <rect key="frame" x="72" y="250" width="271" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
