@@ -222,11 +222,11 @@
         <scene sceneID="fc7-Ai-qfo">
             <objects>
                 <viewController id="0Ff-hR-ftN" customClass="centralAfricanRepublicVC" customModule="eduquality" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="h13-q8-M2j">
+                    <view key="view" contentMode="scaleToFill" id="h13-q8-M2j">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MYJ-2t-lHk">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MYJ-2t-lHk">
                                 <rect key="frame" x="0.0" y="88" width="414" height="774"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wwn-6o-8wW">
@@ -288,7 +288,7 @@
         <scene sceneID="ClV-mn-fld">
             <objects>
                 <viewController id="Ope-bE-pkY" customClass="ethiopiaVC" customModule="eduquality" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="RQf-7N-Pl8">
+                    <view key="view" contentMode="scaleToFill" id="RQf-7N-Pl8">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -461,11 +461,11 @@
         <scene sceneID="wXe-AH-eTC">
             <objects>
                 <viewController id="gzo-Gc-XEc" customClass="afghanistanVC" customModule="eduquality" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="WAW-vf-SSU">
+                    <view key="view" contentMode="scaleToFill" id="WAW-vf-SSU">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Wah-Yc-res">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wah-Yc-res">
                                 <rect key="frame" x="0.0" y="88" width="414" height="774"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="v3I-g7-ph5">
@@ -570,6 +570,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Button" cornerStyle="capsule">
                                     <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="asiaOption1:" destination="yXE-dp-wK8" eventType="touchUpInside" id="s0X-EI-mnv"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OWv-jt-GOX">
                                 <rect key="frame" x="57" y="515" width="300" height="70"/>
@@ -580,6 +583,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Button" cornerStyle="capsule">
                                     <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="asiaOption3:" destination="yXE-dp-wK8" eventType="touchUpInside" id="dyt-Ro-9RO"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rju-Rs-gYU">
                                 <rect key="frame" x="57" y="615" width="300" height="70"/>
@@ -590,6 +596,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Button" cornerStyle="capsule">
                                     <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="asiaOption4:" destination="yXE-dp-wK8" eventType="touchUpInside" id="3mK-4W-WDl"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Ap-az-MKH">
                                 <rect key="frame" x="57" y="415" width="300" height="70"/>
@@ -600,6 +609,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Button" cornerStyle="capsule">
                                     <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="asiaOption2:" destination="yXE-dp-wK8" eventType="touchUpInside" id="dSg-f7-DWZ"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="mlw-dc-fTm"/>
@@ -607,6 +619,12 @@
                     </view>
                     <navigationItem key="navigationItem" id="TAd-7l-f1Y"/>
                     <connections>
+                        <outlet property="asiaAnswer0" destination="f1C-PC-axd" id="BxU-Zp-crN"/>
+                        <outlet property="asiaAnswer1" destination="2Ap-az-MKH" id="ziF-Y9-qwN"/>
+                        <outlet property="asiaAnswer2" destination="OWv-jt-GOX" id="tCE-Em-Pdd"/>
+                        <outlet property="asiaAnswer3" destination="Rju-Rs-gYU" id="B0Y-cv-fnD"/>
+                        <outlet property="asiaProgress" destination="MEx-T1-BAP" id="Jqi-0o-Iay"/>
+                        <outlet property="asiaQuest" destination="mwT-R6-wvn" id="UKJ-Rt-sH8"/>
                         <segue destination="Ma5-Il-5py" kind="show" identifier="showResults2" id="6Kv-Mz-NcN"/>
                     </connections>
                 </viewController>
@@ -641,6 +659,10 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="kuD-qI-cC1"/>
+                    <connections>
+                        <outlet property="asiaRemark" destination="R6s-8a-Eca" id="M5f-QQ-Uq6"/>
+                        <outlet property="asiaScore" destination="8uu-ca-hdf" id="Svh-Fu-7wj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PsF-Ff-pkE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -930,16 +952,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Button" cornerStyle="capsule">
                                     <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
                                 </buttonConfiguration>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MVz-h6-d0m">
-                                <rect key="frame" x="57" y="515" width="300" height="70"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.88498467209999998" green="0.27892997860000002" blue="0.01112959813" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="tintColor" red="0.96862751250000001" green="0.96862751250000001" blue="0.96862751250000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button" cornerStyle="capsule">
-                                    <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
-                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="southOption1:" destination="e6L-7J-III" eventType="touchUpInside" id="OZi-No-RW7"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e70-LE-CNQ">
                                 <rect key="frame" x="57" y="615" width="300" height="70"/>
@@ -950,6 +965,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Button" cornerStyle="capsule">
                                     <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="southOption4:" destination="e6L-7J-III" eventType="touchUpInside" id="Myg-rd-XXB"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TpL-5F-GdJ">
                                 <rect key="frame" x="57" y="415" width="300" height="70"/>
@@ -960,6 +978,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Button" cornerStyle="capsule">
                                     <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="southOption2:" destination="e6L-7J-III" eventType="touchUpInside" id="h44-LL-IBb"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rlh-mg-ZuG">
                                 <rect key="frame" x="178" y="741" width="59" height="56"/>
@@ -968,12 +989,31 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MVz-h6-d0m">
+                                <rect key="frame" x="57" y="512" width="300" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.88498467209999998" green="0.27892997860000002" blue="0.01112959813" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.96862751250000001" green="0.96862751250000001" blue="0.96862751250000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button" cornerStyle="capsule">
+                                    <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="southOption3:" destination="e6L-7J-III" eventType="touchUpInside" id="F6P-ap-rmH"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="oDN-GI-7Mm"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="Ymj-XV-leZ"/>
                     <connections>
+                        <outlet property="southAnswer0" destination="kfx-a5-U3j" id="Lr8-bf-hl0"/>
+                        <outlet property="southAnswer1" destination="TpL-5F-GdJ" id="HXl-c4-bok"/>
+                        <outlet property="southAnswer2" destination="MVz-h6-d0m" id="snC-5U-ms6"/>
+                        <outlet property="southAnswer3" destination="e70-LE-CNQ" id="QM2-aW-1MF"/>
+                        <outlet property="southProgress" destination="Rlh-mg-ZuG" id="xC8-mf-Q6p"/>
+                        <outlet property="southQuest" destination="b0A-MV-xIr" id="9do-Ym-UhL"/>
                         <segue destination="pX8-Ot-uWA" kind="show" identifier="showResults4" id="PI4-iO-AeX"/>
                     </connections>
                 </viewController>
@@ -1008,6 +1048,10 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="vm5-Pl-TQU"/>
+                    <connections>
+                        <outlet property="southRemark" destination="8SL-T4-3IU" id="5l8-uj-OK9"/>
+                        <outlet property="southResult" destination="Khp-N0-hVQ" id="yiK-cm-ipz"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="56o-Ty-qsZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1053,6 +1097,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Button" cornerStyle="capsule">
                                     <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="northOption1:" destination="TfW-46-zrJ" eventType="touchUpInside" id="S45-nm-c7h"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YBs-iI-Wwd">
                                 <rect key="frame" x="57" y="515" width="300" height="70"/>
@@ -1063,6 +1110,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Button" cornerStyle="capsule">
                                     <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="northOption3:" destination="TfW-46-zrJ" eventType="touchUpInside" id="Sy1-cg-WXe"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q9b-Xw-2VB">
                                 <rect key="frame" x="57" y="615" width="300" height="70"/>
@@ -1073,6 +1123,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Button" cornerStyle="capsule">
                                     <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="northOption4:" destination="TfW-46-zrJ" eventType="touchUpInside" id="zTg-yG-HNl"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kEM-Q8-fjr">
                                 <rect key="frame" x="57" y="415" width="300" height="70"/>
@@ -1083,6 +1136,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Button" cornerStyle="capsule">
                                     <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="northOption2:" destination="TfW-46-zrJ" eventType="touchUpInside" id="PSn-WE-PhJ"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WPS-rw-6nK">
                                 <rect key="frame" x="178" y="741" width="59" height="56"/>
@@ -1097,6 +1153,12 @@
                     </view>
                     <navigationItem key="navigationItem" id="oFv-hb-6uT"/>
                     <connections>
+                        <outlet property="northAnswer0" destination="KiB-aN-G4D" id="pry-A4-JT6"/>
+                        <outlet property="northAnswer1" destination="kEM-Q8-fjr" id="AcS-Vq-FMe"/>
+                        <outlet property="northAnswer2" destination="YBs-iI-Wwd" id="fCr-cd-UuH"/>
+                        <outlet property="northAnswer3" destination="q9b-Xw-2VB" id="dOQ-fi-oyE"/>
+                        <outlet property="northProgress" destination="WPS-rw-6nK" id="58S-nY-25C"/>
+                        <outlet property="northQuest" destination="v1w-ih-TBR" id="DXv-rB-OWE"/>
                         <segue destination="3bU-qn-rRu" kind="show" identifier="showResults3" id="m1f-9x-MBj"/>
                     </connections>
                 </viewController>
@@ -1131,6 +1193,10 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="Gs9-oN-oQ1"/>
+                    <connections>
+                        <outlet property="northRemark" destination="wAQ-yK-nKz" id="SQm-tB-tKY"/>
+                        <outlet property="northResult" destination="AKL-FM-vcY" id="8NI-hL-zAT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CJp-b7-Ed2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
