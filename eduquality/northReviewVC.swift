@@ -17,37 +17,37 @@ class northReviewVC: UIViewController {
     
     var questions3: [Question3] = [
         Question3(
-        question3: "Which of the following is a reason for low female enrolment in Afghanistan? ",
-        answers3: ["Traditional and cultural norms",
-                   "Attitudes toward females",
-                   "Lack of female teachers",
+        question3: "What accounts for the gender gap in American education? ",
+        answers3: ["Boys being seen as more mathematically able",
+                   "Girls are undermined in classrooms",
+                   "A and B",
+                   "None of the Above"],
+        correctAnswer3: 2),
+        
+        Question3(
+        question3: "What is the effect of teachers underestimating girls in?",
+        answers3: ["Girls have to work harder than boys for the same recognition",
+                   "Stereotypes and bias lead girls to underestimate themselves",
+                   "The gap of gender  achievement increases",
                    "All of the above"],
         correctAnswer3: 3),
         
         Question3(
-        question3: "What percentage of females in Afghanistan are married before turning 15?",
-        answers3: ["15%",
-                   "42%",
-                   "17%",
-                   "34%"],
+        question3: "What percentage of women graduates are involved in mathematics, computer and informational science?",
+        answers3: ["20%",
+                   "48%",
+                  "32%",
+                   "23%"],
         correctAnswer3: 2),
         
         Question3(
-        question3: "Which of the following is a sanitary issue in Nepal?",
-        answers3: ["Toilet’s are often out of order",
-                   "Only some schools have gender separated bathrooms",
-                   "There aren’t enough sanitary pads available for females on their menstrual cycle",
-                   "B and C"],
-        correctAnswer3: 3),
-        
-        Question3(
-        question3: "What percentage of Napalese women are married before the age of 18?",
-        answers3: ["54%",
-                   "39%",
-                   "60%",
-                   "43%"],
-        correctAnswer3: 3),
-        
+        question3: "What is a pressing issue in Canadian classrooms?",
+        answers3: ["Lack of gender-diversity",
+                   "Large gap of gender inequality",
+                   "Women are underrepresented in leadership positions",
+                   "Nothing!"],
+        correctAnswer3: 0),
+    
         
 ]
     var currentQuestion3: Question3?

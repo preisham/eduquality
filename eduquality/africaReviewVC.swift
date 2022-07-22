@@ -61,7 +61,7 @@ class africaReviewVC: UIViewController {
         answers: [ "Physical abuse",
                    "Mental abuse",
                    "Sexual violence",
-                  "A and C"],
+                  "All of the above"],
         correctAnswer: 3),
         
         
