@@ -532,11 +532,11 @@ It is common that once girls reach 13 years of age, their school attendance rate
         <scene sceneID="wXe-AH-eTC">
             <objects>
                 <viewController id="gzo-Gc-XEc" customClass="afghanistanVC" customModule="eduquality" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="WAW-vf-SSU">
+                    <view key="view" contentMode="scaleToFill" id="WAW-vf-SSU">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Wah-Yc-res">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Wah-Yc-res">
                                 <rect key="frame" x="0.0" y="88" width="414" height="774"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="v3I-g7-ph5">
@@ -1172,17 +1172,96 @@ It is common that once girls reach 13 years of age, their school attendance rate
         <scene sceneID="PSp-g8-hd5">
             <objects>
                 <viewController id="RI3-aw-Iml" customClass="ecuadorVC" customModule="eduquality" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="6F7-la-ZBa">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="6F7-la-ZBa">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aY8-nx-HLA">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Z4t-GI-5JS">
+                                        <rect key="frame" x="0.0" y="0.0" width="1583" height="774"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Introduction" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NTd-QE-1md">
+                                                <rect key="frame" x="42" y="29" width="324" height="74"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eN5-BN-Vah">
+                                                <rect key="frame" x="29" y="111" width="350" height="355"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">In Ecuador, there are many things that prevent girls from finishing secondary school, and in some cases primary school. In recent years, almost 150,000 girls from ages 5-17 couldn’t attend school because they had to do domestic work. Another thing that prevents Ecuadorian girls from getting an education is adolescent pregnancies which are due to the fact that abortions are illegal. </string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="upq-0n-4E3">
+                                                <rect key="frame" x="488" y="111" width="350" height="238"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">78% of girls are subjected to some type of  abuse at home which discourages them from pursuing an education by affecting their sense of self-worth and well being. Additionally, many girls get sexually assualted by teachers and older students.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Abuse" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Ge-FM-zwZ">
+                                                <rect key="frame" x="501" y="29" width="324" height="74"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hSw-jE-DGN">
+                                                <rect key="frame" x="982" y="111" width="350" height="473"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <mutableString key="text">Thankfully, there are many non government organizations that help Ecuadorian girls. The first organization is WE and it focuses on running girls clubs and rehabilitating schools in rural areas. The second organization, Plan International Ecuador, encourages girls to envision successful futures and helps them start to think about career plans. The last organization, CENIT, provides vocational, educational, psychological, health, and social services while decreasing abuse in workplaces for girls and improving conditions. </mutableString>
+                                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Organizations" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GnM-lR-tz1">
+                                                <rect key="frame" x="995" y="29" width="324" height="74"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.88499349360000001" green="0.27501261230000001" blue="0.0079309577119999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="774" id="4bY-DZ-Zfr"/>
+                                            <constraint firstAttribute="width" constant="1583" id="Gwx-m4-IB0"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="Z4t-GI-5JS" firstAttribute="height" secondItem="YnT-bD-a5R" secondAttribute="height" id="2Ym-HC-0Rt"/>
+                                    <constraint firstAttribute="bottom" secondItem="Z4t-GI-5JS" secondAttribute="bottom" id="5qI-qW-N7c"/>
+                                    <constraint firstAttribute="height" constant="757" id="Iux-pb-iSe"/>
+                                    <constraint firstAttribute="trailing" secondItem="Z4t-GI-5JS" secondAttribute="trailing" constant="1169" id="RvC-bE-mtO"/>
+                                    <constraint firstAttribute="trailing" secondItem="Z4t-GI-5JS" secondAttribute="trailing" id="Ycl-an-Frc"/>
+                                    <constraint firstItem="Z4t-GI-5JS" firstAttribute="leading" secondItem="aY8-nx-HLA" secondAttribute="leading" id="aLH-z0-Crc"/>
+                                    <constraint firstItem="Z4t-GI-5JS" firstAttribute="top" secondItem="aY8-nx-HLA" secondAttribute="top" id="hd9-xF-NYd"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="YnT-bD-a5R"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="bnU-lN-BO5"/>
+                            </scrollView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6qG-Zi-QYG"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.88499349360000001" green="0.27501261230000001" blue="0.0079309577119999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="aY8-nx-HLA" firstAttribute="leading" secondItem="6qG-Zi-QYG" secondAttribute="leading" id="9kt-55-3nR"/>
+                            <constraint firstItem="6qG-Zi-QYG" firstAttribute="bottom" secondItem="aY8-nx-HLA" secondAttribute="bottom" id="NSA-fA-4ux"/>
+                            <constraint firstItem="aY8-nx-HLA" firstAttribute="top" secondItem="6qG-Zi-QYG" secondAttribute="top" id="Xv0-Y8-qQD"/>
+                            <constraint firstItem="aY8-nx-HLA" firstAttribute="trailing" secondItem="6qG-Zi-QYG" secondAttribute="trailing" id="deL-iP-xHk"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="XbG-qk-f9a"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="53r-QF-VcC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2286" y="790"/>
+            <point key="canvasLocation" x="1612" y="1111"/>
         </scene>
         <!--South ReviewVC-->
         <scene sceneID="7k6-6i-KxM">
@@ -1320,14 +1399,72 @@ It is common that once girls reach 13 years of age, their school attendance rate
                     <view key="view" contentMode="scaleToFill" id="hpo-wH-vFX" customClass="para">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LMI-hG-Eui">
+                                <rect key="frame" x="0.0" y="88" width="414" height="757"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a2u-ux-8CP">
+                                        <rect key="frame" x="0.0" y="0.0" width="1023" height="757"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Introduction" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vEn-yA-utI">
+                                                <rect key="frame" x="51" y="8" width="324" height="74"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MiH-T2-FWZ">
+                                                <rect key="frame" x="38" y="90" width="350" height="263"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">In Paraguay literacy rates for women are thankfully rising, however there are still problems that they face. Many school-age girls drop out of secondary school or just don’t go at all. Not to mention the fact that some girls get married very young, especially ones living in poverty. </string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Girls' School" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oYA-jX-Gqm">
+                                                <rect key="frame" x="467" y="8" width="324" height="74"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="on5-kR-393">
+                                                <rect key="frame" x="454" y="90" width="350" height="387"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">There is a boarding school called The Centro Educativo Mbaracayu that was founded in 2009 and is located in the Mbaracayu Forest Nature Reserve. The school is mainly for indigenouss girls and tuition is free for them, but anyone else who wants to join has to pay tuition. At the school, the students are taught reproductive and sexual education, alongside agribusiness and IT skills. All the classes are taught in accordance with Paraguay's educational standards.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.87318640950000004" green="0.27500158549999998" blue="0.01207816508" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="1023" id="IrH-f1-waY"/>
+                                            <constraint firstAttribute="height" constant="757" id="rka-EH-w3e"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="a2u-ux-8CP" firstAttribute="height" secondItem="h6C-mp-XEv" secondAttribute="height" id="0Xh-mw-POi"/>
+                                    <constraint firstAttribute="bottom" secondItem="a2u-ux-8CP" secondAttribute="bottom" id="Mra-P5-RLH"/>
+                                    <constraint firstAttribute="trailing" secondItem="a2u-ux-8CP" secondAttribute="trailing" id="NVb-dm-hpu"/>
+                                    <constraint firstItem="a2u-ux-8CP" firstAttribute="leading" secondItem="LMI-hG-Eui" secondAttribute="leading" id="NuM-YZ-ijA"/>
+                                    <constraint firstAttribute="height" constant="757" id="PNy-JB-fcW"/>
+                                    <constraint firstAttribute="trailing" secondItem="a2u-ux-8CP" secondAttribute="trailing" constant="609" id="fis-tm-gY2"/>
+                                    <constraint firstItem="a2u-ux-8CP" firstAttribute="top" secondItem="LMI-hG-Eui" secondAttribute="top" id="qUe-7i-Thd"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="h6C-mp-XEv"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="1lv-u1-gg7"/>
+                            </scrollView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="AzE-4h-2mi"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.88499349360000001" green="0.27501261230000001" blue="0.0079309577119999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="koh-4Y-Q13"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EbA-MY-NOs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1425" y="790"/>
+            <point key="canvasLocation" x="698.55072463768124" y="1110.9375"/>
         </scene>
         <!--North ReviewVC-->
         <scene sceneID="9UI-Kk-3up">
