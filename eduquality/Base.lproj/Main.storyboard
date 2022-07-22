@@ -1101,10 +1101,10 @@ It is common that once girls reach 13 years of age, their school attendance rate
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Ho-yh-eVM">
                                                 <rect key="frame" x="419" y="98" width="350" height="676"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <mutableString key="text">Although women make up over half of post-secondary graduates, they continue to be underrepresented in senior decision-making roles, certain academic and professional fields, and the workforce. 
+                                                <string key="text">Although women make up over half of post-secondary graduates, they continue to be underrepresented in senior decision-making roles, certain academic and professional fields, and the workforce. 
 Despite the greater proportion of women involved in attaining college degrees, at the university level they are extremely underrepresented in STEM: 32% of female graduates were involved in mathematics, computer and information sciences, and just 20% of graduates in architecture, engineering and related technologies.
 Just as gender inequities are present in post-secondary attainment, they are also evident in labour force participation and outcomes. Despite comprising 48 per cent of the labour force in Canada, women are consistently underrepresented in senior leadership positions.
-</mutableString>
+</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -1193,9 +1193,9 @@ Just as gender inequities are present in post-secondary attainment, they are als
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FSV-Q6-QeE">
                                                 <rect key="frame" x="886" y="92" width="353" height="626"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <mutableString key="text">When confronted with a boy and a girl of the same race and socio-economic status who performed equally well on math tests and whom the teacher rated equally well in behaving and engaging with school, the teacher rated the boy as more mathematically able—an alarming pattern that replicated in a separate data set collected after ten years.
+                                                <string key="text">When confronted with a boy and a girl of the same race and socio-economic status who performed equally well on math tests and whom the teacher rated equally well in behaving and engaging with school, the teacher rated the boy as more mathematically able—an alarming pattern that replicated in a separate data set collected after ten years.
 In summary, in order for a girl to be rated as mathematically capable as her male classmate, she not only needs to perform as well as him on a psychometrically rigorous external test, but also be seen as working harder than him. Subsequent matching and instrumental variables analyses suggested that teachers’ underrating of girls from kindergarten through third grade accounts for about half of the gender achievement gap growth in math. 
-</mutableString>
+</string>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="21"/>
                                                 <color key="textColor" red="0.96862751250000001" green="0.96862751250000001" blue="0.96862751250000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -1255,6 +1255,15 @@ In summary, in order for a girl to be rated as mathematically capable as her mal
                                 <rect key="frame" x="-23" y="259" width="505" height="378"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="K2v-Z3-iSJ">
+                                <rect key="frame" x="144" y="404.5" width="75" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.82300871610000004" green="0.95131999249999999" blue="0.83867508170000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nepal" translatesAutoresizingMaskIntoConstraints="NO" id="Dif-Jx-B09">
+                                <rect key="frame" x="161" y="412" width="41" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="afganistan " translatesAutoresizingMaskIntoConstraints="NO" id="5Dn-z1-hoM">
                                 <rect key="frame" x="69" y="401.5" width="30" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1293,6 +1302,16 @@ In summary, in order for a girl to be rated as mathematically capable as her mal
                                 <connections>
                                     <segue destination="yXE-dp-wK8" kind="show" id="we3-Px-39S"/>
                                 </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rcv-eU-McQ">
+                                <rect key="frame" x="153" y="453" width="56" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.82352941180000006" green="0.95294117649999999" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Nepal" cornerStyle="large">
+                                    <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="3px-Fx-cDt"/>
@@ -1532,12 +1551,12 @@ In summary, in order for a girl to be rated as mathematically capable as her mal
         <scene sceneID="cyx-I9-Xel">
             <objects>
                 <viewController id="KTa-4f-msA" customClass="paraguayVC" customModule="eduquality" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="hpo-wH-vFX" customClass="para">
+                    <view key="view" contentMode="scaleToFill" id="hpo-wH-vFX" customClass="para">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VWU-c4-Vwb">
-                                <rect key="frame" x="0.0" y="88" width="414" height="747"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VWU-c4-Vwb">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GuH-oo-9Fw">
                                         <rect key="frame" x="0.0" y="0.0" width="999" height="747"/>
@@ -2168,6 +2187,7 @@ In summary, in order for a girl to be rated as mathematically capable as her mal
         <image name="europe" width="1333" height="966"/>
         <image name="guinea flag" width="612" height="409"/>
         <image name="logo" width="728" height="662"/>
+        <image name="nepal" width="3500" height="1969"/>
         <image name="south america" width="640" height="790"/>
         <image name="volume.2" catalog="system" width="128" height="90"/>
         <systemColor name="systemBackgroundColor">
