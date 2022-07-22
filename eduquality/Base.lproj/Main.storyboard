@@ -128,11 +128,11 @@
             <objects>
                 <viewController id="3lF-wj-FD4" customClass="guineaVC" customModule="eduquality" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Kd5-p2-ToK">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MBc-yP-Wpg">
-                                <rect key="frame" x="0.0" y="44" width="414" height="798"/>
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9EP-yZ-B3V">
                                         <rect key="frame" x="-21" y="0.0" width="1715" height="744"/>
@@ -229,11 +229,11 @@
         <scene sceneID="fc7-Ai-qfo">
             <objects>
                 <viewController id="0Ff-hR-ftN" customClass="centralAfricanRepublicVC" customModule="eduquality" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="h13-q8-M2j">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                    <view key="view" contentMode="scaleToFill" id="h13-q8-M2j">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jyL-MO-sZd">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jyL-MO-sZd">
                                 <rect key="frame" x="0.0" y="88" width="414" height="774"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4gw-fM-R3K">
@@ -340,11 +340,11 @@ It is common that once girls reach 13 years of age, their school attendance rate
             <objects>
                 <viewController id="Ope-bE-pkY" customClass="ethiopiaVC" customModule="eduquality" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="RQf-7N-Pl8">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WbY-cE-71H">
-                                <rect key="frame" x="0.0" y="44" width="414" height="774"/>
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="l6R-ml-UIQ">
                                         <rect key="frame" x="0.0" y="0.0" width="1121" height="774"/>
@@ -425,7 +425,7 @@ It is common that once girls reach 13 years of age, their school attendance rate
             <objects>
                 <viewController id="3CS-qd-lp9" customClass="africaVC" customModule="eduquality" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KUN-aL-m0g">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="africa" translatesAutoresizingMaskIntoConstraints="NO" id="DmT-3o-vcd">
@@ -533,7 +533,7 @@ It is common that once girls reach 13 years of age, their school attendance rate
             <objects>
                 <viewController id="gzo-Gc-XEc" customClass="afghanistanVC" customModule="eduquality" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" ambiguous="YES" id="WAW-vf-SSU">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Wah-Yc-res">
@@ -711,7 +711,7 @@ It is common that once girls reach 13 years of age, their school attendance rate
             <objects>
                 <viewController id="yXE-dp-wK8" customClass="asiaReviewVC" customModule="eduquality" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mw8-KI-jtZ">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Question" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mwT-R6-wvn">
@@ -804,7 +804,7 @@ It is common that once girls reach 13 years of age, their school attendance rate
             <objects>
                 <viewController id="Ma5-Il-5py" customClass="asiaScoreVC" customModule="eduquality" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="U7Y-c3-S75">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="remark" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R6s-8a-Eca">
@@ -821,19 +821,6 @@ It is common that once girls reach 13 years of age, their school attendance rate
                                 <color key="textColor" red="0.021501899299999998" green="0.86387572629999998" blue="0.01303102926" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UhC-Wf-5SD">
-                                <rect key="frame" x="132" y="731" width="150" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.0031389435749999998" green="0.60811859369999999" blue="0.2604839504" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="return to Asia" cornerStyle="capsule">
-                                    <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="CWz-gO-M0P" kind="show" id="aR6-nw-BV0"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="BOs-Nj-mKv"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -999,8 +986,49 @@ It is common that once girls reach 13 years of age, their school attendance rate
                     <view key="view" contentMode="scaleToFill" id="9fc-xv-uRj">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="H15-Os-PpN">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aex-Kw-oiO">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="774"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Introduction" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oa6-Tu-wOh">
+                                                <rect key="frame" x="45" y="8" width="324" height="74"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0rB-zq-3TW">
+                                                <rect key="frame" x="32" y="14" width="350" height="537"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">While Canada is better at enforcing gender equality in classrooms, one thing that they look over is transgender students. A lot of school dont welcome gender-diversity and they won’t realize this unless a transgender student reveals themselves. This may create an atmosphere in which a student may not feel comfortable which is the opposite of how someone should feel in a classroom. 
+</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.46437960859999999" green="0.00044702389280000001" blue="0.0126796281" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="774" id="wa3-6Z-2hW"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="aex-Kw-oiO" firstAttribute="top" secondItem="H15-Os-PpN" secondAttribute="top" id="00e-YP-xLF"/>
+                                    <constraint firstAttribute="bottom" secondItem="aex-Kw-oiO" secondAttribute="bottom" id="Zf6-da-ebW"/>
+                                    <constraint firstItem="aex-Kw-oiO" firstAttribute="leading" secondItem="H15-Os-PpN" secondAttribute="leading" id="e48-ZT-vbj"/>
+                                    <constraint firstItem="aex-Kw-oiO" firstAttribute="height" secondItem="VtS-fr-mwY" secondAttribute="height" id="hzR-1c-Uyw"/>
+                                    <constraint firstAttribute="trailing" secondItem="aex-Kw-oiO" secondAttribute="trailing" id="wKP-fJ-ysx"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="VtS-fr-mwY"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="VCy-fn-jnj"/>
+                            </scrollView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="xZa-lJ-cQi"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.46437960859999999" green="0.00044702389280000001" blue="0.0126796281" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="b2K-YK-vdZ"/>
                 </viewController>
@@ -1015,21 +1043,69 @@ It is common that once girls reach 13 years of age, their school attendance rate
                     <view key="view" contentMode="scaleToFill" id="BcE-yC-9Wy">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gtu-Yk-UpY">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ket-PH-Riu">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="774"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Introduction" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BMn-W3-9u2">
+                                                <rect key="frame" x="45" y="34" width="324" height="74"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mHf-s7-m9e">
+                                                <rect key="frame" x="32" y="119" width="350" height="537"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <mutableString key="text">While the inequality in education when it comes to gender isn’t as bad in the United States as it is in other countries, there are still many obstacles. The problem with the education system in the United States is that girls are constantly undermined and underestimated by teachers. Many teachers, especially in the math and science classes, already have the bias that boys are naturally better than girls in said subjects which negatively impacts girls because they will start to believe it. In order for girls to be recognized at the same level as boys, they need to work much harder and prove that they are just as smart. 
+</mutableString>
+                                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.46437960859999999" green="0.00044702389280000001" blue="0.0126796281" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="774" id="R1G-uw-sDZ"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="774" id="CMW-fA-sd8"/>
+                                    <constraint firstItem="Ket-PH-Riu" firstAttribute="top" secondItem="gtu-Yk-UpY" secondAttribute="top" id="Hzi-DB-0UV"/>
+                                    <constraint firstAttribute="trailing" secondItem="Ket-PH-Riu" secondAttribute="trailing" id="UTM-jK-vZq"/>
+                                    <constraint firstItem="Ket-PH-Riu" firstAttribute="leading" secondItem="gtu-Yk-UpY" secondAttribute="leading" id="Wq7-2p-ZWS"/>
+                                    <constraint firstItem="Ket-PH-Riu" firstAttribute="height" secondItem="j4T-4X-TAG" secondAttribute="height" id="nZm-CV-OW2"/>
+                                    <constraint firstAttribute="bottom" secondItem="Ket-PH-Riu" secondAttribute="bottom" id="xKK-qa-o3c"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="j4T-4X-TAG"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="aHz-ce-BX3"/>
+                            </scrollView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="bbv-pz-Slj"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.5164794921875" green="0.0" blue="0.014501748350055172" alpha="0.89306155577400659" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="gtu-Yk-UpY" firstAttribute="bottom" secondItem="bbv-pz-Slj" secondAttribute="bottom" id="Eoa-aE-YfJ"/>
+                            <constraint firstItem="gtu-Yk-UpY" firstAttribute="trailing" secondItem="bbv-pz-Slj" secondAttribute="trailing" id="QRu-33-ZGO"/>
+                            <constraint firstItem="gtu-Yk-UpY" firstAttribute="top" secondItem="bbv-pz-Slj" secondAttribute="top" id="uDT-IU-uCo"/>
+                            <constraint firstItem="gtu-Yk-UpY" firstAttribute="leading" secondItem="bbv-pz-Slj" secondAttribute="leading" id="wwX-PL-e3j"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Zw1-qi-CEe"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6J6-zT-xUe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5186" y="271"/>
+            <point key="canvasLocation" x="5185.507246376812" y="270.53571428571428"/>
         </scene>
         <!--AsiaVC-->
         <scene sceneID="KdR-om-iSO">
             <objects>
                 <viewController id="CWz-gO-M0P" customClass="asiaVC" customModule="eduquality" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hRB-ut-bAy">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Asia" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PD4-Df-koa">
@@ -1380,7 +1456,7 @@ It is common that once girls reach 13 years of age, their school attendance rate
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CJp-b7-Ed2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5233" y="985"/>
+            <point key="canvasLocation" x="5231.884057971015" y="984.375"/>
         </scene>
         <!--SouthVC-->
         <scene sceneID="uUb-0h-uRu">
@@ -1667,7 +1743,7 @@ It is common that once girls reach 13 years of age, their school attendance rate
             <objects>
                 <viewController id="XyR-Rk-kf7" customClass="scoreAfricaVC" customModule="eduquality" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="NpI-ik-2es">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="remark" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kJP-bV-77E">
@@ -1684,19 +1760,6 @@ It is common that once girls reach 13 years of age, their school attendance rate
                                 <color key="textColor" red="0.019607843140000001" green="0.86274509799999999" blue="0.01176470588" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nt5-Lo-zVw">
-                                <rect key="frame" x="132" y="763" width="150" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.0041561638939999999" green="0.67427480220000002" blue="0.7845522761" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="return to Africa" cornerStyle="capsule">
-                                    <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="3CS-qd-lp9" kind="show" id="eNJ-qP-Ar4"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="SdQ-kr-rrG"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -1716,7 +1779,7 @@ It is common that once girls reach 13 years of age, their school attendance rate
             <objects>
                 <viewController id="CO4-go-zBp" customClass="africaReviewVC" customModule="eduquality" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zkH-uT-7Fb">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Question" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pz7-Yb-aAn">
@@ -1807,8 +1870,6 @@ It is common that once girls reach 13 years of age, their school attendance rate
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="bKh-uP-h4a"/>
-        <segue reference="aR6-nw-BV0"/>
-        <segue reference="eNJ-qP-Ar4"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="AMERICA" width="1200" height="631"/>
